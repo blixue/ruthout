@@ -1,0 +1,111 @@
+.main{width:100%;height:100%;
+		background: url(../img/bg.png) no-repeat;
+		background-size:100% 100%;
+		position:relative;	
+	}
+.logo{position: absolute;
+		width:56px;height:114px;
+		background: url(../img/logo2.png) no-repeat;
+		left:50%;top:2%;
+		margin-left:-28px;
+		}
+#login{width:551px;height:490px;
+		background: #fff;
+		margin: 0 auto;
+  		position:absolute; 
+		top:22%; right:0; left:0; bottom:0;
+		overflow:auto;
+		}	
+#login h1{width:80%;
+		height:36px;
+		margin:0 auto;
+		text-align:center;
+		font-weight:normal;
+		font-size:18px;
+		font-family:"微软雅黑";
+		line-height:26px;
+		border-bottom: 1px solid #1b1b1b;
+		margin-top:10px;
+		}
+#login .txt{display:block;
+			width:60%;
+			margin:0 auto;
+			margin-top:25px;
+			text-indent:35px;
+			border:1px solid #939191;
+			color:#1B1B1B;
+			border-radius:5px;
+			line-height:36px;
+			outline: medium;
+			}
+#login #account{background:url(../img/tuceng-4.png) no-repeat 2% center;}
+#login #psd{background:url(../img/tuceng-5.png) no-repeat 2% center;}
+#login #box_one{width:60%;
+		height:36px;
+		margin: 0 auto;
+		margin-left: 20%;
+		margin-top:22px;
+		margin-bottom: 29px;
+		display:-webkit-box;
+		display:-moz-box;
+		-webkit-box-pack:justify;
+		-moz-box-pack:justify;
+		}
+#login #box_one button{
+			float: left;
+			width:96px;
+			height:36px;
+			background:#063394;
+			border:none;
+			border-radius:5px;
+			color: #fff;
+			font-size:18px;
+			}
+#login #box_one p{
+			float: right\9;
+			width:130px;
+			height:36px;
+			line-height:36px;
+			font-size:14px;
+			font-family: "微软雅黑";
+			color: #939292;
+			}
+#login #box_one p input[type=checkbox]{
+			width:20px;
+			height:20px;
+			display: inline-block;
+			z-index:20;
+			opacity:0;
+			}
+#login #box_one p input[type=checkbox]+label{
+	background:url(../img/weixuan.png) no-repeat left center;
+	background-size:20px 20px;
+	padding-left:25px;
+}
+#login #box_one p input[type=checkbox]:checked+label{
+	background:url(../img/yixuan.png) no-repeat left center;
+	background-size:20px 20px;
+	padding-left:25px;
+}
+#login p{margin-left:20%;
+		color:#b0b2b4;
+		font-family:"微软雅黑";
+		font-size:14px;
+		margin-bottom: 32px;}
+#login p b{color:#2a2a2a;}	
+#login p a{color:#de2519;}
+#login i{display:block;
+		width: 40%;
+		font-family: "微软雅黑";
+		font-size: 14px;
+		font-weight:normal;
+		color:#b0b2b4;
+		font-style:normal;
+		margin:0 auto;
+		margin-bottom:32px;}
+#login #box_two{
+		height:64px;
+		margin-left:20%;
+		}
+#login #box_two a{display:inline-block;
+			margin-right: 70px;}	

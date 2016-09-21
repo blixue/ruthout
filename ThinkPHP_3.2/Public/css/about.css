@@ -1,0 +1,319 @@
+
+.main {
+    width:62%;
+    height:auto;
+    margin-left:22%;
+    margin-bottom:65px;
+}
+ul,li,a{
+    text-decoration: none;
+    outline: none;
+}
+.main #tab{
+    width:274px;
+    height:364px;
+    border: solid 1px #b5b5b5;
+    overflow: hidden;
+    float: left;
+}
+.main #tab li{
+    width: 100%;
+}
+.main #tab li a {
+    display: block;
+    text-align: center;
+    width:236px;
+    line-height:52px;
+    margin: 0 auto;
+    border-bottom: solid 1px #b5b5b5;
+    color: #313131;
+    font-size: 14px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.main #tab li a:hover,.main #tab li.click a{
+    border-bottom: solid 1px #063394;
+    color: #063394;
+}
+.main > .tab_content {
+    float:left;
+    width:812px;
+    height:auto;
+    margin-left:16px;
+}
+
+.main > .clear {
+    clear: both;
+}
+
+.main > .tab_content #content1 .logo2 {
+    display: block;
+    width:194px;
+    height:320px;
+    margin:0 auto;
+}
+
+.main > .tab_content #content1 h1 {
+    font-weight: normal;
+    font-size: 22px;
+    color: #535353;
+}
+
+.main > .tab_content #content1 p {
+    font-size:16px;
+    line-height:22px;
+    color:#535353;
+    font-family:"微软雅黑";
+}
+
+.main > .tab_content #content1 .p_one {
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.main > .tab_content #content1 .p_two {
+    margin-bottom: 20px;
+}
+
+.main > .tab_content .content {
+    display: none;
+}
+
+.main > .tab_content #content3 h1 {
+    font-size: 18px;
+    color: #434343;
+    margin-bottom: 9px;
+}
+
+.main > .tab_content #content3 > div {
+    width:811px;
+    height:53px;
+    background: #e5e5e5;
+}
+
+.main > .tab_content #content3 > div > h2 {
+    font-size: 14px;
+    line-height:53px;
+    color: #434343;
+    font-family:"微软雅黑";
+    padding-left:10px;
+}
+
+.main > .tab_content #content3 ul {
+    width: 100%;
+    height:48px;
+}
+.main>.tab_content #content3 form ul .radio{
+	float: left;
+	line-height:42px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color:#434343;
+	margin-right:20px; 
+}
+
+.main>.tab_content #content3 form ul .radio input[type=radio]{
+	width:20px;
+	height: inherit;
+	display: inline-block;
+	z-index:20;
+	opacity:0;
+}
+.main>.tab_content #content3 form ul .radio input[type=radio]+label{
+	background:url(../img/未选择.png) no-repeat left center;
+	background-size:18px 18px;
+	padding-left:30px;
+}
+.main>.tab_content #content3 form ul .radio input[type=radio]:checked+label{
+	background:url(../img/选择.png) no-repeat left center;
+	background-size:18px 18px;
+	padding-left:30px;
+}
+.main > .tab_content #content3 textarea {
+    display: block;
+    width:476px;
+    height:141px;
+    margin-bottom:29px;
+}
+
+.main > .tab_content #content3 .addimage {
+    display: inline-block;
+    width: 102px
+    height: 102px;
+    border: 2px solid #e5e5e5;
+    background: url(../img/shangchuan.png) no-repeat;
+    background-position: center center;
+}
+
+
+.main > .tab_content #content3 form b {
+    font-size: 14px;
+    color: #a0a0a0;
+    font-family: "微软雅黑";
+    font-weight: normal;
+    margin-left:13px;
+}
+
+.main > .tab_content #content3 form p {
+    font-size:14px;
+    margin-top:20px;
+    margin-bottom:15px;
+    color:#000;
+    font-weight:bold;
+}
+
+.main > .tab_content #content3 form p i {
+    color: red;
+}
+
+.main > .tab_content #content3 form input {
+    display: block;
+    width:476px;
+    height:35px;
+    border: 1px solid #a0a0a0;
+    text-indent: 5px;
+    margin-bottom:22px;
+}
+
+.main > .tab_content #content3 form button {
+    width:157px;
+    height:56px;
+    background: #063394;
+    color: #fff;
+    font-family: "微软雅黑";
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    line-height:56px;
+}
+
+.main > .tab_content #content4 .max_img {
+    width:811px;
+    height:361px;
+    background: url(../img/max.png);
+}
+
+.main > .tab_content #content4 .info {
+    float: left;
+    height:67px;
+    margin-top:20px;
+    margin-right:101px;
+}
+
+.main > .tab_content #content4 .info h1 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.main > .tab_content #content4 .info p {
+    font-size: 12px;
+    line-height:24px;
+    color: #313131;
+    font-family: "微软雅黑";
+}
+
+.main > .tab_content #content6 h1 {
+    font-size: 18px;
+    color: #434343;
+    margin-bottom:9px;
+}
+
+.main > .tab_content #content6 ul {
+    width: 100%;
+    height:48px;
+}
+.main>.tab_content #content6 form ul .radio{
+	float: left;
+	line-height:42px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color:#434343;
+	margin-right:20px; 
+}
+
+.main>.tab_content #content6 form ul .radio input[type=radio]{
+	width:20px;
+	height: inherit;
+	display: inline-block;
+	z-index:20;
+	opacity:0;
+}
+.main>.tab_content #content6 form ul .radio input[type=radio]+label{
+	background:url(../img/未选择.png) no-repeat left center;
+	background-size:18px 18px;
+	padding-left:30px;
+}
+.main>.tab_content #content6 form ul .radio input[type=radio]:checked+label{
+	background:url(../img/选择.png) no-repeat left center;
+	background-size:18px 18px;
+	padding-left:18px;
+}
+
+.main > .tab_content #content6 textarea {
+    display: block;
+    width:476px;
+    height:141px;
+    margin-bottom:29px;
+}
+
+.main > .tab_content #content6 .addimage {
+    display: inline-block;
+    width: 102px;
+    height: 102px;
+    border: 2px solid #e5e5e5;
+    background: url(../img/shangchuan.png) no-repeat;
+    background-position: center center;
+}
+
+.main > .tab_content #content6 form b {
+    font-size: 14px;
+    color: #a0a0a0;
+    font-family: "微软雅黑";
+    font-weight: normal;
+    margin-left:13px;
+}
+
+.main > .tab_content #content6 form p {
+    font-size: 14px;
+    margin-top:20px;
+    margin-bottom:15px;
+    color: #000;
+    font-weight: bold;
+}
+
+.main > .tab_content #content6 form p i {
+    color: red;
+}
+
+.main > .tab_content #content6 form input {
+    display: block;
+    width:476px;
+    height:35px;
+    border: 1px solid #a0a0a0;
+    text-indent: 5px;
+    margin-bottom:22px;
+}
+
+.main > .tab_content #content6 form button {
+    width:157px;
+    height:56px;
+    background: #063394;
+    color: #fff;
+    font-family: "微软雅黑";
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    line-height:56px;
+}
+
+.main .tab_content #content7 ul li {
+    float: left;
+    width: 176px;
+    height:68px;
+    margin-bottom:30px;
+    margin-right:26px;
+    background: blue;
+}
+																																

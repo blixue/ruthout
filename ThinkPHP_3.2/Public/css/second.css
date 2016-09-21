@@ -1,0 +1,28 @@
+
+
+
+.pullDownList{width: 240px;height: 400px;background:#171C61;z-index: 2;float: left; padding:50px 0px;opacity: 0.7;filter:alpha(opacity=70);}
+.pullDownList li{width:100%;text-align:center;height: 100px;line-height:100px;color: #fefcfc;cursor: pointer;}
+.pullDownList li a{width:180px;height: 99px;font-size: 18px;
+color: #fff;}
+.pullDownList li.menuliselected{background:;}
+.pullDownList li.menulihover{background:;}
+.pullDownList>p{
+	width:20px;
+	height: 1px;
+	margin: 0px auto;
+	background: #fff;
+}
+
+
+/*下拉详细列表具体分类*/
+.yMenuListCon{width: 700px;height:670px;z-index:2;float: left;overflow: hidden;}
+
+.yMenuListConin{width: 660px;height:670px;display: none; background: #fff;opacity: 0.75; -moz-opacity:0.75;filter: alpha(opacity=75);padding:40px 50px;}
+.yMenuLCinList{overflow: hidden; margin-bottom: 100px;font-size: 18px;}
+	/*详细分类标题*/
+.yMenuLCinList h3{height: 50px;line-height:50px;font-size:20px;color: #ff0000;}
+.yMenuLCinList p{line-height: 30px;}
+.yMenuLCinList p a{padding:0px 10px;color:#000;}
+.yMenuLCinList p a span{padding:0px 10px;}
+

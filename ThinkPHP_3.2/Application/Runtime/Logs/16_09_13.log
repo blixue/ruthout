@@ -1,0 +1,2325 @@
+[ 2016-09-13T09:47:38+08:00 ] 127.0.0.1 /ThinkPHP_3.2/
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000029s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000017s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000480s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000032s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000046s ]
+
+[ 2016-09-13T09:47:56+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000022s ]
+NOTIC: [8] Undefined index: create_time D:\Applications\soft\service\WWW\ThinkPHP_3.2\Application\Home\Controller\UserController.class.php 第 52 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+ERR: Unknown database 'ruthout_new'
+
+[ 2016-09-13T13:27:59+08:00 ] 127.0.0.1 /ThinkPHP_3.2/
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000120s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000050s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000029s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplate [ RunTime:0.001037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000037s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000049s ]
+
+[ 2016-09-13T14:28:07+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000024s ]
+NOTIC: [8] Undefined index: create_time D:\Applications\soft\service\WWW\ThinkPHP_3.2\Application\Home\Controller\UserController.class.php 第 53 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.002847s ]
+ERR: 1146:Table 'ruthout_new.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.002921s ]
+ERR: 1146:Table 'ruthout_new.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+NOTIC: [8] Undefined offset: 0 D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db.class.php 第 695 行.
+NOTIC: [8] Undefined offset: 0 D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db.class.php 第 695 行.
+NOTIC: [8] Undefined offset: 0 D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db.class.php 第 695 行.
+NOTIC: [8] Undefined offset: 0 D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db.class.php 第 695 行.
+NOTIC: [8] Undefined offset: 0 D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db.class.php 第 695 行.
+NOTIC: [8] Undefined offset: 0 D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db.class.php 第 695 行.
+NOTIC: [8] Undefined offset: 0 D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db.class.php 第 695 行.
+SQL: INSERT INTO `user` (`pk`,`autoinc`,`tablePrefix`,`name`,`dbName`,`connection`,`tableName`,`trueTableName`,`error`,`autoCheckFields`,`patchValidate`) VALUES ('id',0,'','user','','','','user','',1,0) [ RunTime:0.000383s ]
+ERR: 1146:Table 'ruthout_new.user' doesn't exist
+ [ SQL语句 ] : INSERT INTO `user` (`pk`,`autoinc`,`tablePrefix`,`name`,`dbName`,`connection`,`tableName`,`trueTableName`,`error`,`autoCheckFields`,`patchValidate`) VALUES ('id',0,'','user','','','','user','',1,0)
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2016-09-13T14:28:54+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000042s ]
+NOTIC: [8] Undefined index: create_time D:\Applications\soft\service\WWW\ThinkPHP_3.2\Application\Home\Controller\UserController.class.php 第 53 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005805s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006714s ]
+SQL: INSERT INTO `user` () VALUES () [ RunTime:0.136857s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000286s ]
+
+[ 2016-09-13T14:28:57+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000020s ]
+NOTIC: [8] Undefined index: create_time D:\Applications\soft\service\WWW\ThinkPHP_3.2\Application\Home\Controller\UserController.class.php 第 53 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004195s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004363s ]
+SQL: INSERT INTO `user` () VALUES () [ RunTime:0.117828s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000095s ]
+
+[ 2016-09-13T14:29:15+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/rsignup
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000027s ]
+ERR: 非法操作:rsignup
+
+[ 2016-09-13T14:29:24+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000120s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000064s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000036s ]
+ERR: 模板不存在:./Application/Home/View/user/signup.html
+
+[ 2016-09-13T14:29:32+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000021s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000014s ]
+ERR: 模板不存在:./Application/Home/View/user/signup.html
+
+[ 2016-09-13T14:30:33+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000137s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000027s ]
+
+[ 2016-09-13T14:30:54+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup?eamil=1231
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000021s ]
+
+[ 2016-09-13T14:31:00+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup/eamil=1231
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000116s ]
+
+[ 2016-09-13T14:31:07+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup/email=1231
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000034s ]
+
+[ 2016-09-13T14:31:11+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup?email=1231
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000021s ]
+
+[ 2016-09-13T14:31:24+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup?email=1231&nikckname=2
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000037s ]
+
+[ 2016-09-13T14:31:33+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup?email=1231&nickname=2
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000026s ]
+
+[ 2016-09-13T14:36:49+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup?email=1231&nickname=2
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000033s ]
+
+[ 2016-09-13T14:36:50+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup?email=1231&nickname=2
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000022s ]
+
+[ 2016-09-13T14:36:54+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup?email=1231\
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000022s ]
+
+[ 2016-09-13T14:36:57+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup?email=1231
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000027s ]
+
+[ 2016-09-13T14:37:09+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup?email=1231
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000020s ]
+
+[ 2016-09-13T14:53:29+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup?email=1043814@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000034s ]
+NOTIC: [8] Undefined variable: User D:\Applications\soft\service\WWW\ThinkPHP_3.2\Application\Home\Controller\UserController.class.php 第 83 行.
+
+[ 2016-09-13T14:54:46+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup?email=1043814@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000030s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004702s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005674s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' )  [ RunTime:0.644280s ]
+
+[ 2016-09-13T14:54:47+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup?email=1043814@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006362s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.013453s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' )  [ RunTime:0.315229s ]
+
+[ 2016-09-13T14:55:36+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup?email=123123@qq.com&mobile=18611737807
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000134s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000048s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005161s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.013300s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='123123@qq.com' OR user_profile.mobile='' )  [ RunTime:0.305687s ]
+
+[ 2016-09-13T14:55:37+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup?email=123123@qq.com&mobile=18611737807
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006420s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004286s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='123123@qq.com' OR user_profile.mobile='' )  [ RunTime:0.294695s ]
+
+[ 2016-09-13T14:55:46+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup?email=123123@qq.com&mobile=1611737807
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000024s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005833s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004564s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='123123@qq.com' OR user_profile.mobile='' )  [ RunTime:0.307933s ]
+
+[ 2016-09-13T14:55:47+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup?email=123123@qq.com&mobile=1611737807
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000037s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005476s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004699s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='123123@qq.com' OR user_profile.mobile='' )  [ RunTime:0.356835s ]
+
+[ 2016-09-13T14:55:58+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup?email=123123@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006910s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004874s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='123123@qq.com' OR user_profile.mobile='' )  [ RunTime:0.305064s ]
+
+[ 2016-09-13T14:56:00+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup?email=123123@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000020s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005267s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005259s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='123123@qq.com' OR user_profile.mobile='' )  [ RunTime:0.300627s ]
+
+[ 2016-09-13T14:56:02+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup?email=123123@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000026s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014600s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005573s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='123123@qq.com' OR user_profile.mobile='' )  [ RunTime:0.303450s ]
+
+[ 2016-09-13T14:56:03+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup?email=123123@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000030s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004560s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005332s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='123123@qq.com' OR user_profile.mobile='' )  [ RunTime:0.321772s ]
+
+[ 2016-09-13T14:56:03+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup?email=123123@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000027s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007422s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005625s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='123123@qq.com' OR user_profile.mobile='' )  [ RunTime:0.356340s ]
+
+[ 2016-09-13T14:56:04+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup?email=123123@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000020s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004974s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003928s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='123123@qq.com' OR user_profile.mobile='' )  [ RunTime:0.314096s ]
+
+[ 2016-09-13T14:56:04+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup?email=123123@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000022s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004052s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003991s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='123123@qq.com' OR user_profile.mobile='' )  [ RunTime:0.292020s ]
+
+[ 2016-09-13T14:56:50+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup?email=123123@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000039s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004811s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004310s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='123123@qq.com' OR user_profile.mobile='' )  [ RunTime:0.318450s ]
+
+[ 2016-09-13T14:56:53+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup?email=1@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000029s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005320s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006382s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='1@qq.com' OR user_profile.mobile='' )  [ RunTime:0.316594s ]
+
+[ 2016-09-13T14:56:55+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup?email=1@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000035s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004581s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005183s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='1@qq.com' OR user_profile.mobile='' )  [ RunTime:0.297370s ]
+
+[ 2016-09-13T14:56:56+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup?email=1@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000023s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004238s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006013s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='1@qq.com' OR user_profile.mobile='' )  [ RunTime:0.351715s ]
+
+[ 2016-09-13T14:56:58+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup?email=1@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000031s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004930s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004911s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='1@qq.com' OR user_profile.mobile='' )  [ RunTime:0.307539s ]
+
+[ 2016-09-13T14:56:59+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup?email=1@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000026s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005808s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006029s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='1@qq.com' OR user_profile.mobile='' )  [ RunTime:0.326988s ]
+
+[ 2016-09-13T14:57:05+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup?email=13@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000044s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006445s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006111s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='13@qq.com' OR user_profile.mobile='' )  [ RunTime:0.329371s ]
+
+[ 2016-09-13T14:58:00+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup?email=13@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000023s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004576s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004784s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='13@qq.com' OR user_profile.mobile='' )  [ RunTime:0.311310s ]
+
+[ 2016-09-13T14:58:42+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup?email=
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000045s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007044s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004170s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='' OR user_profile.mobile='' )  [ RunTime:0.307237s ]
+
+[ 2016-09-13T14:58:46+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000024s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004450s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004289s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='' OR user_profile.mobile='' )  [ RunTime:0.305135s ]
+
+[ 2016-09-13T15:00:14+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000024s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004751s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004267s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='' OR user_profile.mobile='' )  [ RunTime:0.395523s ]
+
+[ 2016-09-13T15:00:15+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000022s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005955s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004110s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='' OR user_profile.mobile='' )  [ RunTime:0.312272s ]
+
+[ 2016-09-13T15:00:18+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/signup
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000022s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006012s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006126s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='' OR user_profile.mobile='' )  [ RunTime:0.334629s ]
+
+[ 2016-09-13T15:00:50+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000031s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005351s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004951s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='' OR user_profile.mobile='' )  [ RunTime:0.305868s ]
+
+[ 2016-09-13T15:01:33+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=123
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000030s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005971s ]
+
+[ 2016-09-13T15:01:41+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?nickname=123
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000028s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005102s ]
+
+[ 2016-09-13T15:01:49+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?nickname=123
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004958s ]
+
+[ 2016-09-13T15:02:43+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?nickname=123
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.142196s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008823s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='123' OR user.email='' OR user_profile.mobile='' )  [ RunTime:0.362609s ]
+
+[ 2016-09-13T15:07:51+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006702s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.013943s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' )  [ RunTime:0.295769s ]
+
+[ 2016-09-13T15:08:02+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004607s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005713s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='1@qq.com' OR user_profile.mobile='' )  [ RunTime:0.302634s ]
+
+[ 2016-09-13T15:08:04+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000024s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006021s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004723s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='1@qq.com' OR user_profile.mobile='' )  [ RunTime:0.313163s ]
+
+[ 2016-09-13T15:08:12+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000061s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004774s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003904s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='1@qq.com' OR user_profile.mobile='' )  [ RunTime:0.299193s ]
+
+[ 2016-09-13T15:08:18+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=%E6%B0%94%E6%B8%A9%E6%B0%94%E6%B8%A9%E4%B8%BA%E4%BC%81%E9%B9%85%E5%AE%8C%E5%85%A8@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000046s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009019s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004920s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='气温气温为企鹅完全@qq.com' OR user_profile.mobile='' )  [ RunTime:0.297738s ]
+
+[ 2016-09-13T15:08:19+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=%E6%B0%94%E6%B8%A9%E6%B0%94%E6%B8%A9%E4%B8%BA%E4%BC%81%E9%B9%85%E5%AE%8C%E5%85%A8@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005840s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003800s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='气温气温为企鹅完全@qq.com' OR user_profile.mobile='' )  [ RunTime:0.286607s ]
+
+[ 2016-09-13T15:10:09+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=%E6%B0%94%E6%B8%A9%E6%B0%94%E6%B8%A9%E4%B8%BA%E4%BC%81%E9%B9%85%E5%AE%8C%E5%85%A8@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000041s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004636s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004397s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user WHERE ( user.nickname='' OR user.email='气温气温为企鹅完全@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000366s ]
+ERR: 1054:Unknown column 'user' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `user` INNER JOIN user_profile ON user WHERE ( user.nickname='' OR user.email='气温气温为企鹅完全@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:10:10+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=%E6%B0%94%E6%B8%A9%E6%B0%94%E6%B8%A9%E4%B8%BA%E4%BC%81%E9%B9%85%E5%AE%8C%E5%85%A8@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000020s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004935s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004446s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user WHERE ( user.nickname='' OR user.email='气温气温为企鹅完全@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000262s ]
+ERR: 1054:Unknown column 'user' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `user` INNER JOIN user_profile ON user WHERE ( user.nickname='' OR user.email='气温气温为企鹅完全@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:10:23+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=123@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000032s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.085227s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005138s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user WHERE ( user.nickname='' OR user.email='123@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000266s ]
+ERR: 1054:Unknown column 'user' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `user` INNER JOIN user_profile ON user WHERE ( user.nickname='' OR user.email='123@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:10:24+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=123@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000038s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004957s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005607s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user WHERE ( user.nickname='' OR user.email='123@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000256s ]
+ERR: 1054:Unknown column 'user' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `user` INNER JOIN user_profile ON user WHERE ( user.nickname='' OR user.email='123@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:10:41+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000053s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004825s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006288s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user WHERE ( user.nickname='' OR user.email='1043814@qq.com@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000303s ]
+ERR: 1054:Unknown column 'user' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `user` INNER JOIN user_profile ON user WHERE ( user.nickname='' OR user.email='1043814@qq.com@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:10:42+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005039s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004243s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user WHERE ( user.nickname='' OR user.email='1043814@qq.com@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000220s ]
+ERR: 1054:Unknown column 'user' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `user` INNER JOIN user_profile ON user WHERE ( user.nickname='' OR user.email='1043814@qq.com@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:10:43+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000025s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004382s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004533s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user WHERE ( user.nickname='' OR user.email='1043814@qq.com@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000817s ]
+ERR: 1054:Unknown column 'user' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `user` INNER JOIN user_profile ON user WHERE ( user.nickname='' OR user.email='1043814@qq.com@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:10:49+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000023s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005310s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004654s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user WHERE ( user.nickname='' OR user.email='1043814@qq.com@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000240s ]
+ERR: 1054:Unknown column 'user' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `user` INNER JOIN user_profile ON user WHERE ( user.nickname='' OR user.email='1043814@qq.com@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:10:50+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004599s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006663s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user WHERE ( user.nickname='' OR user.email='1043814@qq.com@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000258s ]
+ERR: 1054:Unknown column 'user' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `user` INNER JOIN user_profile ON user WHERE ( user.nickname='' OR user.email='1043814@qq.com@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:10:51+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005418s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004394s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user WHERE ( user.nickname='' OR user.email='1043814@qq.com@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000236s ]
+ERR: 1054:Unknown column 'user' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `user` INNER JOIN user_profile ON user WHERE ( user.nickname='' OR user.email='1043814@qq.com@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:10:55+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000030s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004547s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005206s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user WHERE ( user.nickname='' OR user.email='1043814@qq.com@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000306s ]
+ERR: 1054:Unknown column 'user' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `user` INNER JOIN user_profile ON user WHERE ( user.nickname='' OR user.email='1043814@qq.com@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:14:17+08:00 ] 127.0.0.1 /ThinkPHP_3.2/
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000037s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000017s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000041s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000095s ]
+
+[ 2016-09-13T15:14:37+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=12
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000020s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.065557s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.048981s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='12' OR user_profile.mobile='' )  [ RunTime:0.292932s ]
+
+[ 2016-09-13T15:15:48+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000020s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004832s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004105s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='1043814@qq.com@qq.com' OR user_profile.mobile='' )  [ RunTime:0.284351s ]
+
+[ 2016-09-13T15:15:59+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=123@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000030s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004246s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005784s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='123@qq.com' OR user_profile.mobile='' )  [ RunTime:0.293347s ]
+
+[ 2016-09-13T15:16:10+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=12321321321312@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000025s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004594s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005803s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='12321321321312@qq.com' OR user_profile.mobile='' )  [ RunTime:0.297669s ]
+
+[ 2016-09-13T15:16:18+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=2321321321312@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000020s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005467s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004334s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='2321321321312@qq.com' OR user_profile.mobile='' )  [ RunTime:0.297067s ]
+
+[ 2016-09-13T15:16:19+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=2321321321312@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004369s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004191s ]
+SQL: SELECT * FROM `user` INNER JOIN user_profile ON user.id = user_profile.id WHERE ( user.nickname='' OR user.email='2321321321312@qq.com' OR user_profile.mobile='' )  [ RunTime:0.293740s ]
+
+[ 2016-09-13T15:24:56+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=2321321321312@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004526s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004147s ]
+SQL: SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='2321321321312@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000229s ]
+ERR: 1054:Unknown column 'user_profile.mobile' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='2321321321312@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:24:57+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=2321321321312@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000031s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003896s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004033s ]
+SQL: SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='2321321321312@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000213s ]
+ERR: 1054:Unknown column 'user_profile.mobile' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='2321321321312@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:25:06+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=2321321321312@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000025s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004199s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005860s ]
+SQL: SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='2321321321312@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000224s ]
+ERR: 1054:Unknown column 'user_profile.mobile' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='2321321321312@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:25:28+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000103s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000048s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004356s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005938s ]
+SQL: SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000298s ]
+ERR: 1054:Unknown column 'user_profile.mobile' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:25:36+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000039s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004251s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005938s ]
+SQL: SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000237s ]
+ERR: 1054:Unknown column 'user_profile.mobile' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:25:37+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000030s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005028s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004176s ]
+SQL: SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000259s ]
+ERR: 1054:Unknown column 'user_profile.mobile' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:25:38+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000022s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006350s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004777s ]
+SQL: SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000258s ]
+ERR: 1054:Unknown column 'user_profile.mobile' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:25:39+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000037s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004350s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005797s ]
+SQL: SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000208s ]
+ERR: 1054:Unknown column 'user_profile.mobile' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:25:40+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000039s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004358s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004033s ]
+SQL: SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000257s ]
+ERR: 1054:Unknown column 'user_profile.mobile' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:25:41+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000025s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006104s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004377s ]
+SQL: SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000223s ]
+ERR: 1054:Unknown column 'user_profile.mobile' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:25:42+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000027s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004304s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004862s ]
+SQL: SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000258s ]
+ERR: 1054:Unknown column 'user_profile.mobile' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:25:42+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000041s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003811s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004703s ]
+SQL: SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000258s ]
+ERR: 1054:Unknown column 'user_profile.mobile' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:25:50+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004706s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005008s ]
+SQL: SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000236s ]
+ERR: 1054:Unknown column 'user_profile.mobile' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:25:51+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000023s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005841s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004791s ]
+SQL: SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000228s ]
+ERR: 1054:Unknown column 'user_profile.mobile' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:25:52+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000020s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004420s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005520s ]
+SQL: SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000234s ]
+ERR: 1054:Unknown column 'user_profile.mobile' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:26:01+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com&nickname=123
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000020s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005278s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004606s ]
+SQL: SELECT * FROM `user` WHERE ( user.nickname='123' OR user.email='1043814@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000208s ]
+ERR: 1054:Unknown column 'user_profile.mobile' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user.nickname='123' OR user.email='1043814@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:26:14+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005379s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004475s ]
+SQL: SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000229s ]
+ERR: 1054:Unknown column 'user_profile.mobile' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:26:38+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=591730434@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000020s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005828s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005002s ]
+SQL: SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='591730434@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000248s ]
+ERR: 1054:Unknown column 'user_profile.mobile' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='591730434@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:26:38+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=591730434@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000024s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006452s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004624s ]
+SQL: SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='591730434@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000231s ]
+ERR: 1054:Unknown column 'user_profile.mobile' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='591730434@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:26:39+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=591730434@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004530s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005760s ]
+SQL: SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='591730434@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000227s ]
+ERR: 1054:Unknown column 'user_profile.mobile' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='591730434@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:27:02+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=591730434@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000022s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004226s ]
+
+[ 2016-09-13T15:27:39+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=591730434@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000020s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004733s ]
+
+[ 2016-09-13T15:27:40+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=591730434@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004897s ]
+
+[ 2016-09-13T15:29:45+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=591730434@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000023s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.230621s ]
+
+[ 2016-09-13T15:29:46+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=591730434@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005283s ]
+
+[ 2016-09-13T15:33:31+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=591730434@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000031s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+NOTIC: [2] mysql_connect():  D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+ERR: ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2016-09-13T15:34:59+08:00 ] 127.0.0.1 /ThinkPHP_3.2/
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000023s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000013s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000415s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000033s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000045s ]
+
+[ 2016-09-13T15:37:18+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=12
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000054s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.226136s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.011449s ]
+SQL: SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='12' OR user_profile.mobile='' )  [ RunTime:0.000926s ]
+ERR: 1054:Unknown column 'user_profile.mobile' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='12' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:37:33+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000048s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.049201s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.055067s ]
+SQL: SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000494s ]
+ERR: 1054:Unknown column 'user_profile.mobile' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:37:52+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000024s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004140s ]
+
+[ 2016-09-13T15:37:53+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000023s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004202s ]
+
+[ 2016-09-13T15:38:08+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004479s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004476s ]
+SQL: SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000245s ]
+ERR: 1054:Unknown column 'user_profile.mobile' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:38:08+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004727s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004623s ]
+SQL: SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000256s ]
+ERR: 1054:Unknown column 'user_profile.mobile' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:38:08+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004445s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003926s ]
+SQL: SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000301s ]
+ERR: 1054:Unknown column 'user_profile.mobile' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:38:08+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000028s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005467s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004470s ]
+SQL: SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000220s ]
+ERR: 1054:Unknown column 'user_profile.mobile' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:38:09+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000026s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004797s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005278s ]
+SQL: SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000243s ]
+ERR: 1054:Unknown column 'user_profile.mobile' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:38:09+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000027s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003929s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004198s ]
+SQL: SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' )  [ RunTime:0.000339s ]
+ERR: 1054:Unknown column 'user_profile.mobile' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user.nickname='' OR user.email='1043814@qq.com' OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:38:19+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005298s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003886s ]
+SQL: SELECT * FROM `user` WHERE ( user.nickname='' OR user.email=1043814@qq.com OR user_profile.mobile='' )  [ RunTime:0.000185s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com OR user_profile.mobile='' )' at line 1
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user.nickname='' OR user.email=1043814@qq.com OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:38:19+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005866s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004439s ]
+SQL: SELECT * FROM `user` WHERE ( user.nickname='' OR user.email=1043814@qq.com OR user_profile.mobile='' )  [ RunTime:0.000186s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com OR user_profile.mobile='' )' at line 1
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user.nickname='' OR user.email=1043814@qq.com OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:38:20+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000031s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004965s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004758s ]
+SQL: SELECT * FROM `user` WHERE ( user.nickname='' OR user.email=1043814@qq.com OR user_profile.mobile='' )  [ RunTime:0.000205s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com OR user_profile.mobile='' )' at line 1
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user.nickname='' OR user.email=1043814@qq.com OR user_profile.mobile='' ) 
+
+[ 2016-09-13T15:38:44+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000020s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004958s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005337s ]
+SQL: SELECT * FROM `user` WHERE ( user.email='1043814@qq.com' )  [ RunTime:0.062894s ]
+
+[ 2016-09-13T15:38:45+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000023s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005820s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004006s ]
+SQL: SELECT * FROM `user` WHERE ( user.email='1043814@qq.com' )  [ RunTime:0.000325s ]
+
+[ 2016-09-13T15:38:45+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000020s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004008s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004550s ]
+SQL: SELECT * FROM `user` WHERE ( user.email='1043814@qq.com' )  [ RunTime:0.000359s ]
+
+[ 2016-09-13T15:38:45+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000026s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004955s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004468s ]
+SQL: SELECT * FROM `user` WHERE ( user.email='1043814@qq.com' )  [ RunTime:0.000624s ]
+
+[ 2016-09-13T15:38:46+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1043814@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000022s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004216s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003666s ]
+SQL: SELECT * FROM `user` WHERE ( user.email='1043814@qq.com' )  [ RunTime:0.000402s ]
+
+[ 2016-09-13T15:38:51+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=143814@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.040779s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.046758s ]
+SQL: SELECT * FROM `user` WHERE ( user.email='143814@qq.com' )  [ RunTime:0.017421s ]
+
+[ 2016-09-13T15:38:55+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1432314@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000025s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.067617s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.054204s ]
+SQL: SELECT * FROM `user` WHERE ( user.email='1432314@qq.com' )  [ RunTime:0.000371s ]
+
+[ 2016-09-13T15:38:58+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=1432314@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000024s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012568s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003683s ]
+SQL: SELECT * FROM `user` WHERE ( user.email='1432314@qq.com' )  [ RunTime:0.000314s ]
+
+[ 2016-09-13T15:39:12+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=13552093317@163.com@qq.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000022s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.062649s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.061820s ]
+SQL: SELECT * FROM `user` WHERE ( user.email='13552093317@163.com@qq.com' )  [ RunTime:0.024062s ]
+
+[ 2016-09-13T15:39:14+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=13552093317@163.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000022s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.058648s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.053865s ]
+SQL: SELECT * FROM `user` WHERE ( user.email='13552093317@163.com' )  [ RunTime:0.000365s ]
+
+[ 2016-09-13T15:40:05+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=13552093317@163.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004875s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004730s ]
+SQL: SELECT * FROM `user` WHERE ( user.email='13552093317@163.com'OR user.nickname='' )  [ RunTime:0.066940s ]
+
+[ 2016-09-13T15:40:06+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=13552093317@163.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004821s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004600s ]
+SQL: SELECT * FROM `user` WHERE ( user.email='13552093317@163.com'OR user.nickname='' )  [ RunTime:0.000720s ]
+
+[ 2016-09-13T15:40:07+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=13552093317@163.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000027s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005277s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004939s ]
+SQL: SELECT * FROM `user` WHERE ( user.email='13552093317@163.com'OR user.nickname='' )  [ RunTime:0.001200s ]
+
+[ 2016-09-13T15:40:08+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=13552093317@163.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000023s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009056s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004810s ]
+SQL: SELECT * FROM `user` WHERE ( user.email='13552093317@163.com'OR user.nickname='' )  [ RunTime:0.000911s ]
+
+[ 2016-09-13T15:40:08+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=13552093317@163.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000061s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000037s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004142s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004875s ]
+SQL: SELECT * FROM `user` WHERE ( user.email='13552093317@163.com'OR user.nickname='' )  [ RunTime:0.000736s ]
+
+[ 2016-09-13T15:40:09+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=13552093317@163.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005240s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004613s ]
+SQL: SELECT * FROM `user` WHERE ( user.email='13552093317@163.com'OR user.nickname='' )  [ RunTime:0.000644s ]
+
+[ 2016-09-13T15:40:11+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=13552093317@163.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000040s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004794s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004786s ]
+SQL: SELECT * FROM `user` WHERE ( user.email='13552093317@163.com'OR user.nickname='' )  [ RunTime:0.000826s ]
+
+[ 2016-09-13T15:40:12+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=13552093317@163.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000022s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004023s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005163s ]
+SQL: SELECT * FROM `user` WHERE ( user.email='13552093317@163.com'OR user.nickname='' )  [ RunTime:0.000878s ]
+
+[ 2016-09-13T15:40:13+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=13552093317@163.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004302s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005031s ]
+SQL: SELECT * FROM `user` WHERE ( user.email='13552093317@163.com'OR user.nickname='' )  [ RunTime:0.000939s ]
+
+[ 2016-09-13T15:40:14+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=13552093317@163.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000053s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004549s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004366s ]
+SQL: SELECT * FROM `user` WHERE ( user.email='13552093317@163.com'OR user.nickname='' )  [ RunTime:0.001299s ]
+
+[ 2016-09-13T15:40:15+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=13552093317@163.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000032s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005154s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004741s ]
+SQL: SELECT * FROM `user` WHERE ( user.email='13552093317@163.com'OR user.nickname='' )  [ RunTime:0.000612s ]
+
+[ 2016-09-13T15:40:15+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=13552093317@163.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005095s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005209s ]
+SQL: SELECT * FROM `user` WHERE ( user.email='13552093317@163.com'OR user.nickname='' )  [ RunTime:0.000695s ]
+
+[ 2016-09-13T15:40:16+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=13552093317@163.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.013654s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004775s ]
+SQL: SELECT * FROM `user` WHERE ( user.email='13552093317@163.com'OR user.nickname='' )  [ RunTime:0.000649s ]
+
+[ 2016-09-13T15:40:17+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=13552093317@163.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000022s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004627s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005242s ]
+SQL: SELECT * FROM `user` WHERE ( user.email='13552093317@163.com'OR user.nickname='' )  [ RunTime:0.000651s ]
+
+[ 2016-09-13T15:40:18+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=13552093317@163.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000023s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004307s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004283s ]
+SQL: SELECT * FROM `user` WHERE ( user.email='13552093317@163.com'OR user.nickname='' )  [ RunTime:0.001069s ]
+
+[ 2016-09-13T15:40:22+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=132093317@163.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000031s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.055192s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.022717s ]
+SQL: SELECT * FROM `user` WHERE ( user.email='132093317@163.com'OR user.nickname='' )  [ RunTime:0.016784s ]
+
+[ 2016-09-13T15:40:26+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=132093317@163.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000025s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005025s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005511s ]
+SQL: SELECT * FROM `user` WHERE ( user.email='132093317@163.com'OR user.nickname='' )  [ RunTime:0.000648s ]
+
+[ 2016-09-13T15:40:31+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=13293317@163.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000020s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.070192s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.057161s ]
+SQL: SELECT * FROM `user` WHERE ( user.email='13293317@163.com'OR user.nickname='' )  [ RunTime:0.001942s ]
+
+[ 2016-09-13T15:40:48+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=13293317@163.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004495s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004127s ]
+SQL: SELECT * FROM `user` WHERE ( user.email='13293317@163.com'OR user.nickname='' )  [ RunTime:0.000938s ]
+
+[ 2016-09-13T15:41:05+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=13293317@163.com&nickname=123
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.029698s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.046011s ]
+SQL: SELECT * FROM `user` WHERE ( user.email='13293317@163.com'OR user.nickname='123' )  [ RunTime:0.016449s ]
+
+[ 2016-09-13T15:41:09+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=13293317@163.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000031s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005951s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005620s ]
+SQL: SELECT * FROM `user` WHERE ( user.email='13293317@163.com'OR user.nickname='' )  [ RunTime:0.000767s ]
+
+[ 2016-09-13T15:41:09+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=132093317@163.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003928s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004452s ]
+SQL: SELECT * FROM `user` WHERE ( user.email='132093317@163.com'OR user.nickname='' )  [ RunTime:0.001854s ]
+
+[ 2016-09-13T15:41:11+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=132093317@163.com
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005880s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004806s ]
+SQL: SELECT * FROM `user` WHERE ( user.email='132093317@163.com'OR user.nickname='' )  [ RunTime:0.000636s ]
+
+[ 2016-09-13T15:41:20+08:00 ] 127.0.0.1 /ThinkPHP_3.2/index.php/Home/user/register?email=132093317@163.com&nickname=24
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Applications\soft\service\WWW\ThinkPHP_3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.048168s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.056021s ]
+SQL: SELECT * FROM `user` WHERE ( user.email='132093317@163.com'OR user.nickname='24' )  [ RunTime:0.000882s ]
+

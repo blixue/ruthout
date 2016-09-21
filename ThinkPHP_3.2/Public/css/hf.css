@@ -1,0 +1,183 @@
+@import url(public.css);
+.header {
+  height: 191px;
+  width: 100%;
+}
+.header .login {
+  width: 100%;
+  height: 30px;
+  background-color: #063394;
+  position: relative;
+  min-width: 1080px;
+}
+.header .login .loginin {
+  width: 56%;
+  height: 30px;
+  margin: 0 auto;
+}
+.header .login .loginin .appname {
+  float: left;
+  padding-left: 20px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #D2D2D2;
+  background: url('../img/儒思APP.png') no-repeat;
+  background-position: 0px 5px;
+  letter-spacing: 2px;
+}
+.header .login .loginin .uls li {
+  float: right;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 30px;
+  color: #D2D2D2;
+}
+.header .login .loginin .uls .qq {
+  margin-left: 17px;
+}
+.header .login .loginin .uls .sina {
+  margin-left: 17px;
+}
+.header .login .loginin .uls .wechat {
+  margin-left: 22px;
+}
+.header .nav {
+  width: 100%;
+  height: 161px;
+}
+.header .nav .navin {
+  width: 57%;
+  height: 161px;
+  margin: 0 auto;
+  position: relative;
+}
+.header .nav .navin .logo {
+  position: absolute;
+  top: 26px;
+  left: 51px;
+}
+.header .nav .navin .searchbox {
+  position: absolute;
+  right: 0px;
+  top: 37px;
+  width: 327px;
+  height: 27px;
+  border: 1px solid #a0a0a0;
+}
+.header .nav .navin .searchbox .searchtext {
+  float: left;
+  width: 255px;
+  height: 27px;
+  line-height:27px\0;
+  padding-left:25px;
+  border: none;
+  background: url('../img/搜索.png') no-repeat;
+  background-position:5px 5px;
+  outline:none;
+}
+.header .nav .navin .searchbox .search {
+  float: right;
+  width: 47px;
+  height: 19px;
+  margin-top: 4px;
+  text-align: center;
+  border: none;
+  background-color: #fff;
+  border-left: 1px solid #a0a0a0;
+  outline: none;
+  color: #a0a0a0;
+}
+.header .nav .navin .uls {
+  position: absolute;
+  top: 97px;
+  right: 0px;
+}
+.header .nav .navin .uls li {
+  float: left;
+  width: 122px;
+  height: 45px;
+  font-size: 18px;
+  color: #3E3A39;
+  line-height: 45px;
+  text-align: center;
+}
+.footer {
+  width: 100%;
+  height: 249px;
+  background: url('../img/底部背景.png');
+}
+.footer .footerin {
+  width: 55%;
+  height: 249px;
+  margin: 0 auto;
+  position: relative;
+}
+.footer .footerin .logo {
+  position: absolute;
+  top: 66px;
+}
+.footer .footerin .line {
+  position: absolute;
+  height: 116px;
+  width: 1px;
+  background: #fff;
+  left: 80px;
+  top: 66px;
+}
+.footer .footerin .information {
+  position: absolute;
+  top: 66px;
+  left: 100px;
+  width: 90px;
+  height: 116px;
+}
+.footer .footerin .information p {
+  color: #fff;
+}
+.footer .footerin .telemail {
+  position: absolute;
+  top: 134px;
+  left: 213px;
+  width: 110px;
+  height: 116px;
+  color: #fff;
+}
+.footer .footerin .telemail .tel {
+  font-size: 12px;
+  background: url('../img/人.png') no-repeat;
+  padding-left: 20px;
+  margin-bottom: 5px;
+}
+.footer .footerin .telemail .email {
+  font-size: 12px;
+  background:url('../img/邮箱.png') no-repeat;
+  background-position: 0px 4px;
+  padding-left: 20px;
+}
+.footer .footerin .uls {
+  position: absolute;
+  top: 66px;
+  left: 448px;
+  color: #fff;
+  font-size: 12px;
+}
+.footer .footerin .uls li {
+  margin-bottom: 2px;
+}
+.footer .footerin .together {
+  position: absolute;
+  width: 353px;
+  height: 90px;
+  top: 90px;
+  right: 0px;
+  color: #fff;
+}
+.footer .footerin .together .imgs {
+  position: absolute;
+  left: 70px;
+  top: 0px;
+}
+.footer .footerin .together .imgs li {
+  float: left;
+  margin-right:21px;
+}

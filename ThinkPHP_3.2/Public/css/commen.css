@@ -1,0 +1,33 @@
+body,html,div,input,label,ul,li,dl,dt,dd,img,p,span,h1,h2,h3,h4,h5,a{padding:0px; margin: 0px;font-family: "微软雅黑";}
+.l{font-family: "微软雅黑";}
+html,body{font-size: 12px;
+		height: 100%;}
+ul li{list-style: none;}
+a{text-decoration:none;display: inline-block;}
+img{display:block;border: none;}
+span{display: block;float: left;}
+input{border: none;}
+
+
+.l{float: left;}
+.l>p>em{float:left; color: #ff0101;}
+.r{float:right;}
+.d{display: block;}
+.ov{height:auto;overflow: hidden;}
+.red{color: #ff0100;}
+.last{
+	margin-right:0px ;
+}
+.blue{
+	background: #073394;
+}
+
+
+
+
+
+
+
+
+
+
