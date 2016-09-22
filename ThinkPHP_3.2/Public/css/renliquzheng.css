@@ -1,0 +1,330 @@
+@import url(public.css);
+.section {
+  width: 100%;
+  height: 2000px;
+  background: #f0f0f0;
+  padding-top: 10px;
+}
+.section .out {
+  width: 1100px;
+  height: 361px;
+  margin: 0 auto;
+}
+.section .out .thing {
+  position: relative;
+  width: 1100px;
+  height: 361px;
+  margin: 0 auto;
+  background: #fff;
+}
+.section .out .thing .zhe {
+  width: 34%;
+  height: 35px;
+  background-color: #F0F0F0;
+  position: absolute;
+  top: 130px;
+  left: 43%;
+}
+.section .out .thing .img {
+  width: 41%;
+  margin: 15px;
+}
+.section .out .thing .content {
+  position: absolute;
+  width: 378px;
+  height: 210px;
+  top: 43px;
+  right: 16%;
+}
+.section .out .thing .content p {
+  margin-bottom: 19px;
+}
+.section .out .thing .content .shoucang {
+  display: block;
+  height: 47px;
+  line-height: 47px;
+  padding-left: 27px;
+  font-size: 12px;
+  color: #535353;
+  letter-spacing: 1px;
+  background: url('../img/weike1/shoucang.png') no-repeat left;
+}
+.section .out .thing .content .fenxiang {
+  position: absolute;
+  bottom: -95px;
+  left: 120px;
+  height: 47px;
+  line-height: 47px;
+  padding-left: 27px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #535353;
+  background: url('../img/weike1/fenxiang.png') no-repeat left;
+}
+.section .out .thing .content .title {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.section .out .thing .content .name {
+  font-size: 14px;
+  color: #767575;
+}
+.section .out .thing .content .price {
+  font-size: 14px;
+  color: #767575;
+}
+.section .out .thing .content .price .num {
+  color: #CE2418;
+  font-size: 15px;
+}
+.section .out .thing .content .price .rubi {
+  display: inline-block;
+  width: 65px;
+  background-color: #FFAA33;
+  border-radius: 15px;
+  color: #fff;
+  text-align: center;
+}
+.section .out .thing .content .talk {
+  font-size: 14px;
+  color: #767575;
+}
+.section .out .thing .content .talk .fen {
+  padding-left: 125px;
+  background: url('../img/weike1/wuxing.png') no-repeat left;
+}
+.section .out .thing .content .time {
+  font-size: 14px;
+  color: #767575;
+}
+.section .out .thing .content .time .day {
+  color: #00DA86;
+}
+.section .out .thing .content .now {
+  display: inline-block;
+  width: 131px;
+  height: 47px;
+  background-color: #063394;
+  color: #fff;
+  text-align: center;
+  line-height: 47px;
+  border-radius: 15px;
+}
+.section .out .thing .content .buy {
+  margin-left: 20px;
+  display: inline-block;
+  width: 131px;
+  height: 47px;
+  background-color: #063394;
+  color: #fff;
+  text-align: center;
+  line-height: 47px;
+  border-radius: 15px;
+}
+.section .out .left {
+  width: 73%;
+  height: 1500px;
+  background: #fff;
+  float: left;
+  margin-top: 10px;
+}
+.section .out .left p {
+  font-size: 14px;
+  color: #707070;
+  margin-left: 40px;
+  margin-top: 18px;
+}
+.section .out .left p span {
+  color: #000;
+}
+.section .out .left .tab {
+  width: 100%;
+  height: 53px;
+  background: #063394;
+}
+.section .out .left .tab .uls li {
+  margin-top: 4px;
+  width: 150px;
+  height: 45px;
+  float: left;
+  color: #fff;
+  border-right: 1px solid #fff;
+  text-align: center;
+  line-height: 45px;
+  font-size: 16px;
+}
+.section .out .left .tab .uls .one {
+  background: #fff;
+  color: #000;
+  height: 49px;
+}
+.section .out .left .nav {
+  width: 98%;
+  height: 53px;
+  background: #E5E5E5;
+  margin-top: 8px;
+  margin-left: 8px;
+  overflow: hidden;
+}
+.section .out .left .nav .title {
+  width: 70px;
+  height: 15px;
+  border-left: 2px solid #063394;
+  padding-left: 10px;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 21px;
+  line-height: 15px;
+}
+.section .out .left .ulss li {
+  float: left;
+  width: 31.25%;
+  height: 90px;
+  margin-top: 32px;
+  margin-left: 2%;
+}
+.section .out .left .ulss li dl {
+  width: 100%;
+  height: 90px;
+}
+.section .out .left .ulss li dl dt {
+  width: 35%;
+  height: 90px;
+  float: left;
+}
+.section .out .left .ulss li dl dt img {
+  width: 100%;
+  height: auto;
+}
+.section .out .left .ulss li dl dd {
+  width: 63%;
+  height: 90px;
+  float: left;
+  margin-top: 10px;
+}
+.section .out .left .ulss li dl dd p {
+  margin-left: 2%;
+  margin-top: 5px;
+}
+.section .out .left .ulsss {
+  width: 100%;
+  height: 200px;
+}
+.section .out .left .ulsss li {
+  width: 96%;
+  height: 120px;
+  margin-left: 2%;
+}
+.section .out .left .ulsss li .img {
+  float: left;
+  width: 10%;
+  height: auto;
+  margin-top: 12px;
+  margin-left: 2%;
+}
+.section .out .left .ulsss li p {
+  margin-left: 15%;
+  line-height: 12px;
+}
+.section .out .left .ull {
+  width: 96%;
+  height: 189px;
+  margin-left: 2%;
+  margin-top: 22px;
+}
+.section .out .left .ull li {
+  width: 30%;
+  height: 189px;
+  margin-left: 2%;
+  float: left;
+}
+.section .out .left .ull li img {
+  width: 100%;
+  height: auto;
+}
+.section .out .left .ull li p {
+  font-size: 14px;
+  text-align: center;
+  line-height: 30px;
+  margin: 0;
+  color: #000;
+}
+.section .out .right {
+  width: 25%;
+  height: 672px;
+  float: right;
+  margin-top: 10px;
+  background: #fff;
+}
+.section .out .right .content {
+  font-size: 14px;
+  line-height: 25px;
+}
+.section .out .right .nav {
+  width: 100%;
+  height: 53px;
+  background: #e5e5e5;
+  overflow: hidden;
+}
+.section .out .right .nav .title {
+  width: 70px;
+  height: 15px;
+  border-left: 2px solid #063394;
+  padding-left: 10px;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 21px;
+  line-height: 15px;
+}
+.section .out .right .photo {
+  width: 98%;
+  margin-left: 1%;
+  height: 150px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.section .out .right .photo .img {
+  margin-left: 35%;
+  margin-top: 16px;
+}
+.section .out .right .photo p {
+  text-align: center;
+  margin-top: 5px;
+}
+.section .out .rightdown {
+  float: right;
+  width: 25%;
+  height: 230px;
+  margin-top: 16px;
+  background: #fff;
+}
+.section .out .rightdown .nav {
+  width: 100%;
+  height: 53px;
+  background: #e5e5e5;
+  overflow: hidden;
+}
+.section .out .rightdown .nav .title {
+  width: 70px;
+  height: 15px;
+  border-left: 2px solid #063394;
+  padding-left: 10px;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 21px;
+  line-height: 15px;
+}
+.section .out .rightdown .uls {
+  margin-left: 10px;
+  margin-top: 13px;
+}
+.section .out .rightdown .uls li {
+  float: left;
+  margin-right: 13px;
+  width: 53px;
+  height: 70px;
+}
+.section .out .rightdown .uls li p {
+  color: #A0A0A0;
+  text-align: center;
+  line-height: 20px;
+}

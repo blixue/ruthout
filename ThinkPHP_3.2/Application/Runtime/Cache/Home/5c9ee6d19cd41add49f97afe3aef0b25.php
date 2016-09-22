@@ -2,14 +2,14 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
-		<link rel="stylesheet" href="/ThinkPHP_3.2/Public/css/commen.css" />
-		<link rel="stylesheet" href="/ThinkPHP_3.2/Public/css/login.css" />
+		<title>登录-儒斯微视频</title>
+		<link rel="stylesheet" href="/Public/css/commen.css" />
+		<link rel="stylesheet" href="/Public/css/login.css" />
 	</head>
 	<body>
 		<div class="main">
-			<div class="logo"></div>
-			<form action="" id="login" method="post" onsubmit="return check()">
+			<a href="<?php echo U('Index/index');?>"><div class="logo"></div></a>
+			<form action="/index.php/Home/User/login" id="login" method="post" onsubmit="return check()">
 				<h1>登陆</h1>
 				<input type="text" id="account" class="txt" name="account" placeholder="请输入您的账号" onblur="check_account();"/>
 				<i id="name"></i>
@@ -18,25 +18,25 @@
 				<div id="box_one">
 					<i id='s'></i>
 					<i id='e'></i>
-					<button>登陆</button>
+					<button type="submit">登陆</button>
 					<p>
 						<input type="checkbox" name="auto" class="chbox" id="chbox" checked='1'/>
 						<label for="chbox">记住密码</label>
 					</p>
 				</div>
-				<p><b>找回密码</b> | 还没有注册账号？<a href="/ThinkPHP_3.2/index.php/Home/Index/regist">立即注册</a></p>
+				<p><b>找回密码</b> | 还没有注册账号？<a href="/index.php/Home/User/register_y">立即注册</a></p>
 				<i>-----其他登陆方式-----</i>
 				<div id="box_two">
-					<a href=""><img src="/ThinkPHP_3.2/Public/img/weixin.png" alt="" /></a>
-					<a href=""><img src="/ThinkPHP_3.2/Public/img/QQ.png" alt="" /></a>
-					<a href=""><img src="/ThinkPHP_3.2/Public/img/weibo.png" alt="" /></a>
+					<a href=""><img src="/Public/img/weixin.png" alt="" /></a>
+					<a href=""><img src="/Public/img/QQ.png" alt="" /></a>
+					<a href=""><img src="/Public/img/weibo.png" alt="" /></a>
 				</div>
 			</form>
 		</div>
 	</body>
 </html>
-<script src='/ThinkPHP_3.2/Public/js/jquery-1.8.3.min.js'></script>
-<script src='/ThinkPHP_3.2/Public/js/placeholder.js'></script>
+<script src='/Public/js/jquery-1.8.3.min.js'></script>
+<script src='/Public/js/placeholder.js'></script>
 <script>
 	var FlagAcc = false;
 	var FlagPwd = false;

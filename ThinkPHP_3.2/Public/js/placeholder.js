@@ -6,13 +6,14 @@ $(function () {
             var $copy = $tag.clone();   //当前 input 的复制  
             if ($copy.val() == "") {  
                 $copy.css("color", "#666");  
-                
+                $copy.css("line-height", "27px");  
                 $copy.val($copy.attr('placeholder'));  
             }  
             $copy.focus(function () {  
                 if (this.value == $copy.attr('placeholder')) {  
                     this.value = '';  
                     this.style.color = '#666';  
+                    $copy.css("line-height", "27px"); 
                 }  
             });  
             $copy.blur(function () {  
@@ -20,6 +21,7 @@ $(function () {
                     this.value = $copy.attr('placeholder');  
                     $tag.val("");  
                     this.style.color = '#666';  
+                    $copy.css("line-height", "27px"); 
                 } else {  
                     $tag.val(this.value);  
                 }  

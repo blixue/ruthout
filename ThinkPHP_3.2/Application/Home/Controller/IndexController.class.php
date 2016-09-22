@@ -6,31 +6,52 @@ class IndexController extends Controller {
 	/**
 	 * 首页
 	 */
-    public function index(){
-		$data=session('account');
-		if($data){
-			$this->data = $data;
-		}else if(cookie('account')){
-			$this->data = cookie('account');
+
+	   public function _before_index(){
+
+		   //$this->display();
+
+	   }
+	//热门资料
+		public function index(){
+			//自动登陆
+			$data=session('account');
+			if($data){
+				$this->data = $data;
+			}else if(cookie('email')){
+				$this->data = cookie('email');
+			}
+			//首页热门资料
+			$Doc= D('Doc');
+			$hotDoc = $Doc->hotDoc();
+			$this->assign('doc',$hotDoc);
+			$this->display('Index/index');
+
+
 		}
-		$this->display();
-    }
 
-	//渲染注册页
-	public function register(){
-		$this->display('User/regist');
-	}
+	   public function _after_index(){
+		  // echo 'after<br/>';
+	   }
 
-	 public function login()
-	{
-		$this->display('User/login');
-	}
 
-	function product() {
 
-	}
 
-	function search() {
 
+
+	
+	//渲染搜索
+	function search(){
+		$search_val = I('post.search_val');
+		$Search = D('Search');
+		$data = $Search->search_index($search_val);
+		if(is_array($data)){
+			$this->assign('data',$data);
+			//传搜索页面
+			$this->display('search');
+		}else{
+			//显示无搜索结果
+			$this->ajaxReturn(0);
+		}
 	}
 }

@@ -3,12 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title></title>
-	<link rel="stylesheet" href="/ThinkPHP_3.2/Public/css/commen.css" />
-	<link rel="stylesheet" href="/ThinkPHP_3.2/Public/css/regist.css" />
+	<link rel="stylesheet" href="/Public/css/commen.css" />
+	<link rel="stylesheet" href="/Public/css/regist.css" />
 </head>
 <body>
 <div class="main">
-	<div class="logo"></div>
+	<a href="<?php echo U('Index/index');?>"><div class="logo"></div></a>
 	<form  id="regist" action="<?php echo U('User/regist');?>" method="post" onsubmit="return check()">
 		<h1>注册</h1>
 		<label for="email">邮箱<input type="text" id="email" name="email" class="email" placeholder="请输入您的常用邮箱作为登陆账号" onblur="check_email();"/>
@@ -31,9 +31,9 @@
 </div>
 </body>
 </html>
-<script src='/ThinkPHP_3.2/Public/js/jquery-1.8.3.min.js'></script>
-<script src='/ThinkPHP_3.2/Public/js/placeholder.js'></script>
-<!--<script src='/ThinkPHP_3.2/Public/js/layer.js'></script>-->
+<script src='/Public/js/jquery-1.8.3.min.js'></script>
+<script src='/Public/js/placeholder.js'></script>
+<!--<script src='/Public/js/layer.js'></script>-->
 <script>
 var FlagEma = false;
 var FlagNam = false;

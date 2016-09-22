@@ -1,0 +1,258 @@
+@import url(public.css);
+.ding {
+  position: fixed;
+  right: 2%;
+  top: 50%;
+  width: 183px;
+  height: 285px;
+  border: 2px solid #073394;
+  border-radius: 5px;
+}
+.ding .uu li {
+  width: 96%;
+  margin-left: 2%;
+  height: 56px;
+  border-bottom: 1px solid #073394;
+  text-align: center;
+  line-height: 56px;
+}
+.section {
+  width: 100%;
+  height: 2400px;
+  background: #f0f0f0;
+  padding-top: 15px;
+}
+.section .sectionin {
+  width: 1100px;
+  height: 2200px;
+  margin: 0 auto;
+}
+.section .sectionin .top {
+  width: 100%;
+  height: 359px;
+  margin-bottom: 15px;
+  background: #fff;
+  position: relative;
+}
+.section .sectionin .top .now {
+  position: absolute;
+  bottom: 40px;
+  width: 131px;
+  height: 47px;
+  border-radius: 5px;
+  background: #073394;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  line-height: 47px;
+}
+.section .sectionin .top .img {
+  float: left;
+  width: 25%;
+  height: auto;
+  margin-top: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.section .sectionin .top p {
+  margin-top: 15px;
+}
+.section .sectionin .top p span {
+  color: #02da87;
+}
+.section .sectionin .top .uls {
+  height: 10px;
+}
+.section .sectionin .top .uls li {
+  float: left;
+  margin-right: 2%;
+}
+.section .sectionin .bottom {
+  width: 100%;
+  height: 1900px;
+  margin: 0 auto;
+  background: #fff;
+}
+.section .sectionin .bottom .ulss {
+  width: 100%;
+  height: 151px;
+  padding-top: 15px;
+  position: relative;
+  margin-left: 2%;
+}
+.section .sectionin .bottom .ulss li.zhe div {
+  height: 220px;
+}
+.section .sectionin .bottom .ulss li {
+  position: relative;
+  display: inline-block;
+  float: left;
+  width: 22.7%;
+  height: 151px;
+  margin-right: 19px;
+}
+.section .sectionin .bottom .ulss li .tu {
+  width: 100%;
+  height: auto;
+}
+.section .sectionin .bottom .ulss li div {
+  position: absolute;
+  transition: all 0.25s ease-in;
+  height: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #00DA86;
+  filter: alpha(opacity=80);
+  -moz-opacity: 0.8;
+  -khtml-opacity: 0.8;
+  opacity: 0.8;
+  overflow: hidden;
+}
+.section .sectionin .bottom .ulss li div .photo {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+}
+.section .sectionin .bottom .ulss li div .name {
+  font-size: 15px;
+  color: #fff;
+  padding-top: 20px;
+  margin-left: 65px;
+}
+.section .sectionin .bottom .ulss li div .job {
+  font-size: 14px;
+  color: #fff;
+  margin-left: 65px;
+}
+.section .sectionin .bottom .ulss li div .content {
+  font-size: 15px;
+  color: #000;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.section .sectionin .bottom .ulss li div .title {
+  font-size: 15px;
+  color: #fff;
+  margin-left: 10px;
+  padding-top: 15px;
+}
+.section .sectionin .bottom .ulss li div .go {
+  position: absolute;
+  right: 10px;
+  bottom: 30px;
+}
+.section .sectionin .bottom .ulss li .titleli {
+  font-size: 15px;
+}
+.section .sectionin .bottom .ulss li .pricenow {
+  font-size: 20px;
+  color: #CE2418;
+}
+.section .sectionin .bottom .ulss li .priceago {
+  font-size: 10px;
+  text-decoration: line-through;
+  color: #686666;
+}
+.section .sectionin .bottom .ulss li .count {
+  margin-top: 7px;
+  float: right;
+  font-size: 10px;
+  color: #686666;
+}
+.section .sectionin .bottom .ulss li .teacher {
+  font-size: 14px;
+}
+.section .sectionin .bottom .ulsss {
+  width: 100%;
+  height: 480px;
+}
+.section .sectionin .bottom .ulsss li {
+  width: 96%;
+  height: 120px;
+  margin-left: 2%;
+  border-bottom: 1px solid #bcbcbc;
+}
+.section .sectionin .bottom .ulsss li .img {
+  float: left;
+  width: 8%;
+  height: auto;
+  margin-top: 20px;
+  margin-left: 2%;
+}
+.section .sectionin .bottom .ulsss li p {
+  margin-left: 15%;
+  line-height: 30px;
+}
+.section .sectionin .bottom .ulsss li p span {
+  color: #bcbcbc;
+}
+.section .sectionin .bottom .ull {
+  margin-left: 4%;
+  margin-top: 10px;
+}
+.section .sectionin .bottom .ull li {
+  color: #808080;
+  height: 30px;
+  line-height: 30px;
+}
+.section .sectionin .bottom .table {
+  font-size: 14px;
+  margin-left: 4%;
+  margin-top: 15px;
+  color: #808080;
+}
+.section .sectionin .bottom .table tr {
+  height: 30px;
+}
+.section .sectionin .bottom .table tr td {
+  width: 300px;
+}
+.section .sectionin .bottom .nav {
+  width: 96%;
+  height: 53px;
+  background: #E5E5E5;
+  margin-top: 15px;
+  margin-left: 2%;
+  overflow: hidden;
+}
+.section .sectionin .bottom .nav .uu {
+  margin-left: 21px;
+}
+.section .sectionin .bottom .nav .uu li {
+  float: left;
+  font-size: 14px;
+  line-height: 53px;
+  margin-right: 5%;
+}
+.section .sectionin .bottom .nav .title {
+  width: 70px;
+  height: 15px;
+  border-left: 2px solid #063394;
+  padding-left: 10px;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 21px;
+  line-height: 15px;
+}
+.section .sectionin .bottom .tab {
+  width: 100%;
+  height: 53px;
+  background: #063394;
+}
+.section .sectionin .bottom .tab .uls li {
+  margin-top: 4px;
+  width: 20%;
+  height: 45px;
+  float: left;
+  color: #fff;
+  border-right: 1px solid #fff;
+  text-align: center;
+  line-height: 45px;
+  font-size: 16px;
+}
+.section .sectionin .bottom .tab .uls .one {
+  background: #fff;
+  color: #000;
+  height: 49px;
+}

@@ -8,7 +8,7 @@
 </head>
 <body>
 <div class="main">
-	<div class="logo"></div>
+	<a href="{:U('Index/index')}"><div class="logo"></div></a>
 	<form  id="regist" action="{:U('User/regist')}" method="post" onsubmit="return check()">
 		<h1>注册</h1>
 		<label for="email">邮箱<input type="text" id="email" name="email" class="email" placeholder="请输入您的常用邮箱作为登陆账号" onblur="check_email();"/>

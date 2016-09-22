@@ -1,17 +1,30 @@
 @import url(public.css);
+body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
 .header {
   height: 191px;
+  width: 1100px;
+  margin: 0 auto;
+}
+.header .blue {
+  position: absolute;
   width: 100%;
+  height: 30px;
+  top: 0;
+  left: 0;
+  background-color: #063394;
 }
 .header .login {
   width: 100%;
   height: 30px;
   background-color: #063394;
   position: relative;
-  min-width: 1080px;
 }
 .header .login .loginin {
-  width: 56%;
+  width: 100%;
   height: 30px;
   margin: 0 auto;
 }
@@ -21,7 +34,7 @@
   line-height: 30px;
   font-size: 14px;
   color: #D2D2D2;
-  background: url('../img/儒思APP.png') no-repeat;
+  background: url('../img/hf/儒思APP.png') no-repeat;
   background-position: 0px 5px;
   letter-spacing: 2px;
 }
@@ -46,7 +59,7 @@
   height: 161px;
 }
 .header .nav .navin {
-  width: 57%;
+  width: 100%;
   height: 161px;
   margin: 0 auto;
   position: relative;
@@ -68,12 +81,12 @@
   float: left;
   width: 255px;
   height: 27px;
-  line-height:27px\0;
-  padding-left:25px;
+  line-height: 27px\0;
+  padding-left: 25px;
   border: none;
-  background: url('../img/搜索.png') no-repeat;
-  background-position:5px 5px;
-  outline:none;
+  background: url('../img/hf/搜索.png') no-repeat;
+  background-position: 5px 5px;
+  outline: none;
 }
 .header .nav .navin .searchbox .search {
   float: right;
@@ -91,10 +104,11 @@
   position: absolute;
   top: 97px;
   right: 0px;
+  width: 80%;
 }
 .header .nav .navin .uls li {
   float: left;
-  width: 122px;
+  width: 15%;
   height: 45px;
   font-size: 18px;
   color: #3E3A39;
@@ -104,10 +118,10 @@
 .footer {
   width: 100%;
   height: 249px;
-  background: url('../img/底部背景.png');
+  background: url('../img/hf/底部背景.png');
 }
 .footer .footerin {
-  width: 55%;
+  width: 1100px;
   height: 249px;
   margin: 0 auto;
   position: relative;
@@ -144,20 +158,20 @@
 }
 .footer .footerin .telemail .tel {
   font-size: 12px;
-  background: url('../img/人.png') no-repeat;
+  background: url('../img/hf/人.png') no-repeat;
   padding-left: 20px;
   margin-bottom: 5px;
 }
 .footer .footerin .telemail .email {
   font-size: 12px;
-  background:url('../img/邮箱.png') no-repeat;
+  background: url('../img/hf/邮箱.png') no-repeat;
   background-position: 0px 4px;
   padding-left: 20px;
 }
 .footer .footerin .uls {
   position: absolute;
   top: 66px;
-  left: 448px;
+  left: 45%;
   color: #fff;
   font-size: 12px;
 }
@@ -179,5 +193,5 @@
 }
 .footer .footerin .together .imgs li {
   float: left;
-  margin-right:21px;
+  margin-right: 21px;
 }

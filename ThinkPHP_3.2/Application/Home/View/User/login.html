@@ -2,14 +2,14 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
+		<title>登录-儒斯微视频</title>
 		<link rel="stylesheet" href="__PUBLIC__/css/commen.css" />
 		<link rel="stylesheet" href="__PUBLIC__/css/login.css" />
 	</head>
 	<body>
 		<div class="main">
-			<div class="logo"></div>
-			<form action="" id="login" method="post" onsubmit="return check()">
+			<a href="{:U('Index/index')}"><div class="logo"></div></a>
+			<form action="__URL__/login" id="login" method="post" onsubmit="return check()">
 				<h1>登陆</h1>
 				<input type="text" id="account" class="txt" name="account" placeholder="请输入您的账号" onblur="check_account();"/>
 				<i id="name"></i>
@@ -18,13 +18,13 @@
 				<div id="box_one">
 					<i id='s'></i>
 					<i id='e'></i>
-					<button>登陆</button>
+					<button type="submit">登陆</button>
 					<p>
 						<input type="checkbox" name="auto" class="chbox" id="chbox" checked='1'/>
 						<label for="chbox">记住密码</label>
 					</p>
 				</div>
-				<p><b>找回密码</b> | 还没有注册账号？<a href="__URL__/regist">立即注册</a></p>
+				<p><b>找回密码</b> | 还没有注册账号？<a href="__URL__/register_y">立即注册</a></p>
 				<i>-----其他登陆方式-----</i>
 				<div id="box_two">
 					<a href=""><img src="__PUBLIC__/img/weixin.png" alt="" /></a>

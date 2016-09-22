@@ -1,0 +1,411 @@
+@import url(public.css);
+body {
+  width: 100%;
+  height: 100%;
+}
+.section {
+  width: 100%;
+  height: 2600px;
+}
+.section .sectiontop {
+  width: 1100px;
+  height: 840px;
+  margin: 0 auto;
+}
+.section .sectiontop .banner {
+  width: 100%;
+  height: 192px;
+}
+.section .sectiontop .banner img {
+  width: 100%;
+  height: auto;
+}
+.section .sectiontop .uls {
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px gray solid;
+}
+.section .sectiontop .uls li {
+  float: left;
+  font-size: 14px;
+  line-height: 25px;
+  margin-right: 25px;
+  text-align: center;
+  margin-top: 25px;
+  height: 25px;
+  width: 7%;
+}
+.section .sectiontop .uls .zhuanyuan {
+  background-color: #00DA86;
+  color: #fff;
+}
+.section .sectiontop .uls .title1 {
+  font-size: 20px;
+  width: 12.5%;
+  height: 69px;
+  text-align: center;
+  line-height: 69px;
+  color: #fff;
+  background-color: #20B2F4;
+}
+.section .sectiontop .uls .title2 {
+  font-size: 20px;
+  width: 12.5%;
+  height: 69px;
+  text-align: center;
+  line-height: 69px;
+  color: #fff;
+  background-color: #F9664E;
+}
+.section .sectiontop .uls .title3 {
+  font-size: 20px;
+  width: 12.5%;
+  height: 69px;
+  text-align: center;
+  line-height: 69px;
+  color: #fff;
+  background-color: #997FF4;
+}
+.section .sectiontop .uls .title4 {
+  font-size: 20px;
+  width: 12.5%;
+  height: 69px;
+  text-align: center;
+  line-height: 69px;
+  color: #fff;
+  background-color: #A4CA39;
+}
+.section .sectiontop .xianshibox {
+  position: relative;
+}
+.section .sectiontop .xianshibox .xianshi {
+  position: absolute;
+  top: 35px;
+}
+.section .sectiontop .xianshibox .ulss {
+  width: 100%;
+  height: 221px;
+  margin-left: 170px;
+  padding-top: 35px;
+  position: relative;
+}
+.section .sectiontop .xianshibox .ulss li.zhe div {
+  height: 100%;
+}
+.section .sectiontop .xianshibox .ulss li {
+  float: left;
+  width: 20%;
+  height: 221px;
+  position: relative;
+  margin-right: 19px;
+}
+.section .sectiontop .xianshibox .ulss li .tu {
+  width: 100%;
+  height: auto;
+}
+.section .sectiontop .xianshibox .ulss li div {
+  position: absolute;
+  transition: all 0.25s ease-in;
+  height: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #00DA86;
+  filter: alpha(opacity=80);
+  -moz-opacity: 0.8;
+  -khtml-opacity: 0.8;
+  opacity: 0.8;
+  overflow: hidden;
+}
+.section .sectiontop .xianshibox .ulss li div .photo {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+}
+.section .sectiontop .xianshibox .ulss li div .name {
+  font-size: 15px;
+  color: #fff;
+  padding-top: 20px;
+  margin-left: 65px;
+}
+.section .sectiontop .xianshibox .ulss li div .job {
+  font-size: 14px;
+  color: #fff;
+  margin-left: 65px;
+}
+.section .sectiontop .xianshibox .ulss li div .content {
+  font-size: 15px;
+  color: #000;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.section .sectiontop .xianshibox .ulss li div .title {
+  font-size: 15px;
+  color: #fff;
+  margin-left: 10px;
+  padding-top: 10px;
+}
+.section .sectiontop .xianshibox .ulss li div .go {
+  position: absolute;
+  right: 10px;
+  bottom: 15px;
+}
+.section .sectiontop .xianshibox .ulss li .titleli {
+  font-size: 15px;
+}
+.section .sectiontop .xianshibox .ulss li .pricenow {
+  font-size: 20px;
+  color: #CE2418;
+}
+.section .sectiontop .xianshibox .ulss li .priceago {
+  font-size: 10px;
+  text-decoration: line-through;
+  color: #686666;
+}
+.section .sectiontop .xianshibox .ulss li .count {
+  margin-top: 7px;
+  float: right;
+  font-size: 10px;
+  color: #686666;
+}
+.section .sectiontop .xianshibox .ulss li .teacher {
+  font-size: 14px;
+}
+.section .sectionbottom {
+  width: 100%;
+  height: 1738px;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+  padding-top: 40px;
+}
+.section .sectionbottom .get {
+  width: 1100px;
+  height: 277px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background-color: #fff;
+  position: relative;
+}
+.section .sectionbottom .get .content {
+  position: absolute;
+  width: 378px;
+  height: 210px;
+  top: 43px;
+  right: 10%;
+}
+.section .sectionbottom .get .content p {
+  margin-bottom: 10px;
+}
+.section .sectionbottom .get .content .title {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.section .sectionbottom .get .content .name {
+  font-size: 14px;
+  color: #767575;
+}
+.section .sectionbottom .get .content .price {
+  font-size: 14px;
+  color: #767575;
+}
+.section .sectionbottom .get .content .price .num {
+  color: #CE2418;
+  font-size: 15px;
+}
+.section .sectionbottom .get .content .price .rubi {
+  display: inline-block;
+  width: 65px;
+  background-color: #FFAA33;
+  border-radius: 15px;
+  color: #fff;
+  text-align: center;
+}
+.section .sectionbottom .get .content .talk {
+  font-size: 14px;
+  color: #767575;
+}
+.section .sectionbottom .get .content .talk .fen {
+  padding-left: 125px;
+  background: url('../img/weike1/wuxing.png') no-repeat left;
+}
+.section .sectionbottom .get .content .time {
+  font-size: 14px;
+  color: #767575;
+}
+.section .sectionbottom .get .content .time .day {
+  color: #00DA86;
+}
+.section .sectionbottom .get .content .now {
+  display: inline-block;
+  width: 105px;
+  height: 38px;
+  background-color: #063394;
+  color: #fff;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 15px;
+}
+.section .sectionbottom .get .content .buy {
+  margin-left: 20px;
+  display: inline-block;
+  width: 105px;
+  height: 38px;
+  background-color: #063394;
+  color: #fff;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 15px;
+}
+.section .sectionbottom .get .img {
+  margin-top: 10px;
+  margin-left: 184px;
+  width: 34%;
+  height: auto;
+}
+.section .sectionbottom .get .nav {
+  width: 100%;
+  height: 33px;
+  border-bottom: 1px solid #767575;
+}
+.section .sectionbottom .get .nav p {
+  line-height: 33px;
+  color: #767575;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.section .sectionbottom .get .uls {
+  position: absolute;
+  top: 43px;
+  left: 15px;
+}
+.section .sectionbottom .get .uls li {
+  width: 116px;
+  height: 71px;
+  text-align: center;
+  line-height: 71px;
+  font-size: 16px;
+  border: 1px solid #767575;
+  border-bottom-width: 0px;
+}
+.section .sectionbottom .sectionbottomin {
+  width: 1100px;
+  height: 294px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.section .sectionbottom .sectionbottomin .banner {
+  width: 100%;
+  height: 33px;
+  border-bottom: 1px solid #686666;
+  position: relative;
+}
+.section .sectionbottom .sectionbottomin .banner .uls {
+  width: 100%;
+  height: 33px;
+}
+.section .sectionbottom .sectionbottomin .banner .uls li {
+  float: left;
+  line-height: 33px;
+  width: 100px;
+  height: 33px;
+  font-size: 14px;
+  color: #767575;
+  margin-right: 55px;
+  text-align: center;
+}
+.section .sectionbottom .sectionbottomin .banner .more {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding-right: 20px;
+  background: url('../img/weike1/更多.png') no-repeat right;
+}
+.section .sectionbottom .sectionbottomin .ulss {
+  width: 100%;
+  height: 151px;
+  padding-top: 15px;
+  position: relative;
+  margin-left: 15px;
+}
+.section .sectionbottom .sectionbottomin .ulss li.zhe div {
+  height: 230px;
+}
+.section .sectionbottom .sectionbottomin .ulss li {
+  float: left;
+  position: relative;
+  width: 23%;
+  height: 151px;
+  margin-right: 19px;
+}
+.section .sectionbottom .sectionbottomin .ulss li .tu {
+  width: 100%;
+  height: auto;
+}
+.section .sectionbottom .sectionbottomin .ulss li div {
+  position: absolute;
+  transition: all 0.25s ease-in;
+  height: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #00DA86;
+  filter: alpha(opacity=80);
+  -moz-opacity: 0.8;
+  -khtml-opacity: 0.8;
+  opacity: 0.8;
+  overflow: hidden;
+}
+.section .sectionbottom .sectionbottomin .ulss li div .photo {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+}
+.section .sectionbottom .sectionbottomin .ulss li div .name {
+  font-size: 15px;
+  color: #fff;
+  padding-top: 20px;
+  margin-left: 65px;
+}
+.section .sectionbottom .sectionbottomin .ulss li div .job {
+  font-size: 14px;
+  color: #fff;
+  margin-left: 65px;
+}
+.section .sectionbottom .sectionbottomin .ulss li div .content {
+  font-size: 15px;
+  color: #000;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.section .sectionbottom .sectionbottomin .ulss li div .title {
+  font-size: 15px;
+  color: #fff;
+  margin-left: 10px;
+  padding-top: 15px;
+}
+.section .sectionbottom .sectionbottomin .ulss li div .go {
+  position: absolute;
+  right: 10px;
+  bottom: 30px;
+}
+.section .sectionbottom .sectionbottomin .ulss li .titleli {
+  font-size: 15px;
+}
+.section .sectionbottom .sectionbottomin .ulss li .pricenow {
+  font-size: 20px;
+  color: #CE2418;
+}
+.section .sectionbottom .sectionbottomin .ulss li .priceago {
+  font-size: 10px;
+  text-decoration: line-through;
+  color: #686666;
+}
+.section .sectionbottom .sectionbottomin .ulss li .count {
+  margin-top: 7px;
+  float: right;
+  font-size: 10px;
+  color: #686666;
+}
+.section .sectionbottom .sectionbottomin .ulss li .teacher {
+  font-size: 14px;
+}

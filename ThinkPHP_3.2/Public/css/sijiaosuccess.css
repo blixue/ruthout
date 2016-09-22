@@ -1,0 +1,144 @@
+@import url(public.css);
+.section {
+  width: 1100px;
+  height: 800px;
+  margin: 0 auto;
+}
+.section .success {
+  margin-top: 30px;
+  margin-left: 4%;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.section .box {
+  width: 100%;
+  height: 248px;
+  background: #eeeeee;
+  margin-bottom: 23px;
+  position: relative;
+}
+.section .box .img {
+  position: absolute;
+  top: 26px;
+  left: 6%;
+}
+.section .box .content {
+  font-size: 18px;
+  margin-left: 10%;
+  padding-top: 30px;
+}
+.section .box .left {
+  position: absolute;
+  width: 143px;
+  height: 56px;
+  border-radius: 5px;
+  border: 1px solid #8e8a8b;
+  text-align: center;
+  line-height: 56px;
+  top: 160px;
+  left: 30%;
+}
+.section .box .right {
+  position: absolute;
+  width: 143px;
+  height: 56px;
+  border-radius: 5px;
+  border: 1px solid #8e8a8b;
+  text-align: center;
+  line-height: 56px;
+  top: 160px;
+  right: 30%;
+}
+.section .two {
+  width: 96%;
+  height: 53px;
+  background: #eeeeee;
+  margin-bottom: 23px;
+  line-height: 53px;
+  font-size: 18px;
+  padding-left: 4%;
+  color: #434343;
+}
+.section .ulss {
+  width: 100%;
+  height: 221px;
+  padding-top: 35px;
+  position: relative;
+  margin-left: 2%;
+}
+.section .ulss li {
+  float: left;
+  width: 22%;
+  height: 221px;
+  margin-right: 19px;
+  border: 1px solid #e4e4e4;
+}
+.section .ulss li .tu {
+  width: 100%;
+  height: auto;
+}
+.section .ulss li .zhe {
+  display: none;
+  width: 20%;
+  height: 0px;
+  position: absolute;
+  background-color: #00DA86;
+  filter: alpha(opacity=80);
+  -moz-opacity: 0.8;
+  -khtml-opacity: 0.8;
+  opacity: 0.8;
+}
+.section .ulss li .zhe .photo {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+}
+.section .ulss li .zhe .name {
+  font-size: 15px;
+  color: #fff;
+  padding-top: 20px;
+  margin-left: 65px;
+}
+.section .ulss li .zhe .job {
+  font-size: 14px;
+  color: #fff;
+  margin-left: 65px;
+}
+.section .ulss li .zhe .content {
+  font-size: 15px;
+  color: #000;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.section .ulss li .zhe .title {
+  font-size: 15px;
+  color: #fff;
+  margin-left: 10px;
+  padding-top: 10px;
+}
+.section .ulss li .zhe .go {
+  position: absolute;
+  right: 10px;
+  bottom: 15px;
+}
+.section .ulss li .titleli {
+  font-size: 15px;
+}
+.section .ulss li .pricenow {
+  font-size: 20px;
+  color: #CE2418;
+}
+.section .ulss li .priceago {
+  font-size: 10px;
+  text-decoration: line-through;
+  color: #686666;
+}
+.section .ulss li .count {
+  margin-top: 7px;
+  float: right;
+  font-size: 10px;
+  color: #686666;
+}
+.section .ulss li .teacher {
+  font-size: 14px;
+}

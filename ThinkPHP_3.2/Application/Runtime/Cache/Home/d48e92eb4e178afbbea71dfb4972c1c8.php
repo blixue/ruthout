@@ -1,0 +1,529 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HR微课</title>
+	<link rel="stylesheet" href="/Public/css/hf.css">
+	<link rel="stylesheet" href="/Public/css/weike1.css">
+</head>
+<body>
+	<div class="header"><div class="blue"></div>
+		<div class="login">
+			<div class="loginin">
+				<a href="#" class='appname'>儒思APP</a>
+				<ul class="uls">
+					<li><img src="/Public/img/hf/导航新浪.png" alt="" class='sina'></li>
+					<li><img src="/Public/img/hf/导航微信.png" alt="" class='wechat'></li>
+					<li><img src="/Public/img/hf/导航QQ.png" alt="" class='qq'></li>
+					<li>注册</li>
+					<li>马上登录│</li>
+				</ul>
+			</div>
+			<div class="nav">
+				<div class="navin">
+					<img src="/Public/img/hf/logo.png" alt="" class='logo'>
+					<div class="searchbox">
+						<input class="searchtext" type="text" placeholder="请输入关键字"/>
+						<input class="search" type="button" value="搜索"/>
+					</div>
+					<ul class="uls">
+						<li><a href="<?php echo U('Index/index');?>">首页</a></li>
+						<li style='color:#063391;border-bottom: 2px solid #063391;'>HR微课</li>
+						<li><a href="<?php echo U('Wenda/index');?>">圈子问答</li>
+						<li><a href="<?php echo U('Doc/index');?>">资料下载</a></li>
+						<li>HR需要</li>
+						<li>HR资讯</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section">
+		<div class="sectiontop">
+			<div class="banner">
+				<img src="/Public/img/weike1/xianshiqianggoubanner.png" alt="">
+			</div>
+			<ul class="uls">
+				<li class='title1' style='margin-top:0px;'>HR晋升课程</li>
+				<li class='zhuanyuan'>专员必修课</li>
+				<li>主管必修课</li>
+				<li>经理必修课</li>
+				<li>高层必修课</li>
+			</ul>
+			<ul class="uls">
+				<li class='title2' style='margin-top:0px;'>人力领域课程</li>
+				<li  style='width:8%;'>人力资源规划</li>
+				<li>招聘与配置</li>
+				<li>培训与开发</li>
+				<li>酬薪福利</li>
+				<li>绩效管理</li>
+				<li>员工关系</li>
+				<li>股权激励</li>
+			</ul>
+			<ul class="uls">
+				<li class='title3' style='margin-top:0px;'>取证课程</li>
+				<li>人资一级</li>
+				<li>人资二级</li>
+				<li>人资三级</li>
+			</ul>
+			<ul class="uls">
+				<li class='title4' style='margin-top:0px;'>其他课程</li>
+				<li>儒思有约</li>
+				<li>职场加油站</li>
+			</ul>
+			<div class="xianshibox">
+				<img src="/Public/img/weike1/图层-10.png" alt="" class='xianshi'>
+				<ul class="ulss">
+					<li>
+						<div>
+							<img src="/Public/img/weike1/图层-3-拷贝-3.png" alt="" class='photo'>
+							<p class='name'>崔晓光</p>
+							<p class='job'>北京市成教学会人力资...</p>
+							<p class='content'>高级职称，国家认证高级企业培训师，人力资源管理师，信息系统项目管理师。人力资源专家，多年专注于人力资源管理各模块的实践、研...</p>
+							<p class='title'>如果对目标（计划）...</p>
+							<img src="/Public/img/weike1/gengduo.png" alt="" class='go'>
+							
+						</div>
+						<img src="/Public/img/weike1/图层-6.png" alt="" class='tu'>
+						<p class='titleli'>如何对目标（计划）进行量化</p>
+						<p><span class='pricenow'>￥2</span> <span class='priceago'>原价：￥288</span><span class='count'>999人报名</span></p>
+						<hr style='height:1px;border:none;border-top:1px dashed #686666;margin-bottom:4px;'/>
+						<p class='teacher'>崔晓光</p>
+					</li>
+					<li>
+						<div>
+							<img src="/Public/img/weike1/图层-3-拷贝-3.png" alt="" class='photo'>
+							<p class='name'>崔晓光</p>
+							<p class='job'>北京市成教学会人力资...</p>
+							<p class='content'>高级职称，国家认证高级企业培训师，人力资源管理师，信息系统项目管理师。人力资源专家，多年专注于人力资源管理各模块的实践、研...</p>
+							<p class='title'>如果对目标（计划）...</p>
+							<img src="/Public/img/weike1/gengduo.png" alt="" class='go'>
+							
+						</div>
+						<img src="/Public/img/weike1/图层-6.png" alt="" class='tu'>
+						<p class='titleli'>如何对目标（计划）进行量化</p>
+						<p><span class='pricenow'>￥2</span> <span class='priceago'>原价：￥288</span><span class='count'>999人报名</span></p>
+						<hr style='height:1px;border:none;border-top:1px dashed #686666;margin-bottom:4px;'/>
+						<p class='teacher'>崔晓光</p>
+					</li>
+					<li>
+						<div>
+							<img src="/Public/img/weike1/图层-3-拷贝-3.png" alt="" class='photo'>
+							<p class='name'>崔晓光</p>
+							<p class='job'>北京市成教学会人力资...</p>
+							<p class='content'>高级职称，国家认证高级企业培训师，人力资源管理师，信息系统项目管理师。人力资源专家，多年专注于人力资源管理各模块的实践、研...</p>
+							<p class='title'>如果对目标（计划）...</p>
+							<img src="/Public/img/weike1/gengduo.png" alt="" class='go'>
+							
+						</div>
+						<img src="/Public/img/weike1/图层-6.png" alt="" class='tu'>
+						<p class='titleli'>如何对目标（计划）进行量化</p>
+						<p><span class='pricenow'>￥2</span> <span class='priceago'>原价：￥288</span><span class='count'>999人报名</span></p>
+						<hr style='height:1px;border:none;border-top:1px dashed #686666;margin-bottom:4px;'/>
+						<p class='teacher'>崔晓光</p>
+					</li>
+					<li>
+						<div>
+							<img src="/Public/img/weike1/图层-3-拷贝-3.png" alt="" class='photo'>
+							<p class='name'>崔晓光</p>
+							<p class='job'>北京市成教学会人力资...</p>
+							<p class='content'>高级职称，国家认证高级企业培训师，人力资源管理师，信息系统项目管理师。人力资源专家，多年专注于人力资源管理各模块的实践、研...</p>
+							<p class='title'>如果对目标（计划）...</p>
+							<img src="/Public/img/weike1/gengduo.png" alt="" class='go'>
+							
+						</div>
+						<img src="/Public/img/weike1/图层-6.png" alt="" class='tu'>
+						<p class='titleli'>如何对目标（计划）进行量化</p>
+						<p><span class='pricenow'>￥2</span> <span class='priceago'>原价：￥288</span><span class='count'>999人报名</span></p>
+						<hr style='height:1px;border:none;border-top:1px dashed #686666;margin-bottom:4px;'/>
+						<p class='teacher'>崔晓光</p>
+					</li>
+				</ul>
+			</div>	
+		</div>
+		<div class="sectionbottom">
+			<div class="sectionbottomin">
+				<div class="banner">
+					<ul class="uls">
+						<li style='font-size:16px;border-bottom:2px solid #063391'>HR晋升课程</li>
+						<li>专员必修课</li>
+						<li>主管必修课</li>
+						<li>经理必修课</li>
+						<li>高层必修课</li>
+					</ul>
+					<span class='more'>更多</span>
+				</div>
+				<ul class="ulss">
+					<li>
+						<div>
+							<img src="/Public/img/weike1/图层-3-拷贝-3.png" alt="" class='photo'>
+							<p class='name'>崔晓光</p>
+							<p class='job'>北京市成教学会人力资...</p>
+							<p class='content'>高级职称，国家认证高级企业培训师，人力资源管理师，信息系统项目管理师。人力资源专家，多年专注于人力资源管理各模块的实践、研...</p>
+							<p class='title'>如果对目标（计划）...</p>
+							<img src="/Public/img/weike1/gengduo.png" alt="" class='go'>
+							
+						</div>
+						<img src="/Public/img/weike1/图层-6.png" alt="" class='tu'>
+						<p class='titleli'>如何对目标（计划）进行量化</p>
+						<p><span class='pricenow'>￥2</span> <span class='priceago'>原价：￥288</span><span class='count'>999人报名</span></p>
+						<hr style='height:1px;border:none;border-top:1px dashed #686666;margin-bottom:4px;'/>
+						<p class='teacher'>崔晓光</p>
+					</li>
+					<li>
+						<div>
+							<img src="/Public/img/weike1/图层-3-拷贝-3.png" alt="" class='photo'>
+							<p class='name'>崔晓光</p>
+							<p class='job'>北京市成教学会人力资...</p>
+							<p class='content'>高级职称，国家认证高级企业培训师，人力资源管理师，信息系统项目管理师。人力资源专家，多年专注于人力资源管理各模块的实践、研...</p>
+							<p class='title'>如果对目标（计划）...</p>
+							<img src="/Public/img/weike1/gengduo.png" alt="" class='go'>
+							
+						</div>
+						<img src="/Public/img/weike1/图层-6.png" alt="" class='tu'>
+						<p class='titleli'>如何对目标（计划）进行量化</p>
+						<p><span class='pricenow'>￥2</span> <span class='priceago'>原价：￥288</span><span class='count'>999人报名</span></p>
+						<hr style='height:1px;border:none;border-top:1px dashed #686666;margin-bottom:4px;'/>
+						<p class='teacher'>崔晓光</p>
+					</li>
+					<li>
+						<div>
+							<img src="/Public/img/weike1/图层-3-拷贝-3.png" alt="" class='photo'>
+							<p class='name'>崔晓光</p>
+							<p class='job'>北京市成教学会人力资...</p>
+							<p class='content'>高级职称，国家认证高级企业培训师，人力资源管理师，信息系统项目管理师。人力资源专家，多年专注于人力资源管理各模块的实践、研...</p>
+							<p class='title'>如果对目标（计划）...</p>
+							<img src="/Public/img/weike1/gengduo.png" alt="" class='go'>
+							
+						</div>
+						<img src="/Public/img/weike1/图层-6.png" alt="" class='tu'>
+						<p class='titleli'>如何对目标（计划）进行量化</p>
+						<p><span class='pricenow'>￥2</span> <span class='priceago'>原价：￥288</span><span class='count'>999人报名</span></p>
+						<hr style='height:1px;border:none;border-top:1px dashed #686666;margin-bottom:4px;'/>
+						<p class='teacher'>崔晓光</p>
+					</li>
+					<li>
+						<div>
+							<img src="/Public/img/weike1/图层-3-拷贝-3.png" alt="" class='photo'>
+							<p class='name'>崔晓光</p>
+							<p class='job'>北京市成教学会人力资...</p>
+							<p class='content'>高级职称，国家认证高级企业培训师，人力资源管理师，信息系统项目管理师。人力资源专家，多年专注于人力资源管理各模块的实践、研...</p>
+							<p class='title'>如果对目标（计划）...</p>
+							<img src="/Public/img/weike1/gengduo.png" alt="" class='go'>
+							
+						</div>
+						<img src="/Public/img/weike1/图层-6.png" alt="" class='tu'>
+						<p class='titleli'>如何对目标（计划）进行量化</p>
+						<p><span class='pricenow'>￥2</span> <span class='priceago'>原价：￥288</span><span class='count'>999人报名</span></p>
+						<hr style='height:1px;border:none;border-top:1px dashed #686666;margin-bottom:4px;'/>
+						<p class='teacher'>崔晓光</p>
+					</li>
+				</ul>
+			</div>
+			<div class="sectionbottomin" style='margin-top:40px;'>
+				<div class="banner">
+					<ul class="uls">
+						<li style='font-size:16px;border-bottom:2px solid #063391'>HR晋升课程</li>
+						<li>专员必修课</li>
+						<li>主管必修课</li>
+						<li>经理必修课</li>
+						<li>高层必修课</li>
+					</ul>
+					<span class='more'>更多</span>
+				</div>
+				<ul class="ulss">
+					<li>
+						<div>
+							<img src="/Public/img/weike1/图层-3-拷贝-3.png" alt="" class='photo'>
+							<p class='name'>崔晓光</p>
+							<p class='job'>北京市成教学会人力资...</p>
+							<p class='content'>高级职称，国家认证高级企业培训师，人力资源管理师，信息系统项目管理师。人力资源专家，多年专注于人力资源管理各模块的实践、研...</p>
+							<p class='title'>如果对目标（计划）...</p>
+							<img src="/Public/img/weike1/gengduo.png" alt="" class='go'>
+							
+						</div>
+						<img src="/Public/img/weike1/图层-6.png" alt="" class='tu'>
+						<p class='titleli'>如何对目标（计划）进行量化</p>
+						<p><span class='pricenow'>￥2</span> <span class='priceago'>原价：￥288</span><span class='count'>999人报名</span></p>
+						<hr style='height:1px;border:none;border-top:1px dashed #686666;margin-bottom:4px;'/>
+						<p class='teacher'>崔晓光</p>
+					</li>
+					<li>
+						<div>
+							<img src="/Public/img/weike1/图层-3-拷贝-3.png" alt="" class='photo'>
+							<p class='name'>崔晓光</p>
+							<p class='job'>北京市成教学会人力资...</p>
+							<p class='content'>高级职称，国家认证高级企业培训师，人力资源管理师，信息系统项目管理师。人力资源专家，多年专注于人力资源管理各模块的实践、研...</p>
+							<p class='title'>如果对目标（计划）...</p>
+							<img src="/Public/img/weike1/gengduo.png" alt="" class='go'>
+							
+						</div>
+						<img src="/Public/img/weike1/图层-6.png" alt="" class='tu'>
+						<p class='titleli'>如何对目标（计划）进行量化</p>
+						<p><span class='pricenow'>￥2</span> <span class='priceago'>原价：￥288</span><span class='count'>999人报名</span></p>
+						<hr style='height:1px;border:none;border-top:1px dashed #686666;margin-bottom:4px;'/>
+						<p class='teacher'>崔晓光</p>
+					</li>
+					<li>
+						<div>
+							<img src="/Public/img/weike1/图层-3-拷贝-3.png" alt="" class='photo'>
+							<p class='name'>崔晓光</p>
+							<p class='job'>北京市成教学会人力资...</p>
+							<p class='content'>高级职称，国家认证高级企业培训师，人力资源管理师，信息系统项目管理师。人力资源专家，多年专注于人力资源管理各模块的实践、研...</p>
+							<p class='title'>如果对目标（计划）...</p>
+							<img src="/Public/img/weike1/gengduo.png" alt="" class='go'>
+							
+						</div>
+						<img src="/Public/img/weike1/图层-6.png" alt="" class='tu'>
+						<p class='titleli'>如何对目标（计划）进行量化</p>
+						<p><span class='pricenow'>￥2</span> <span class='priceago'>原价：￥288</span><span class='count'>999人报名</span></p>
+						<hr style='height:1px;border:none;border-top:1px dashed #686666;margin-bottom:4px;'/>
+						<p class='teacher'>崔晓光</p>
+					</li>
+					<li>
+						<div>
+							<img src="/Public/img/weike1/图层-3-拷贝-3.png" alt="" class='photo'>
+							<p class='name'>崔晓光</p>
+							<p class='job'>北京市成教学会人力资...</p>
+							<p class='content'>高级职称，国家认证高级企业培训师，人力资源管理师，信息系统项目管理师。人力资源专家，多年专注于人力资源管理各模块的实践、研...</p>
+							<p class='title'>如果对目标（计划）...</p>
+							<img src="/Public/img/weike1/gengduo.png" alt="" class='go'>
+							
+						</div>
+						<img src="/Public/img/weike1/图层-6.png" alt="" class='tu'>
+						<p class='titleli'>如何对目标（计划）进行量化</p>
+						<p><span class='pricenow'>￥2</span> <span class='priceago'>原价：￥288</span><span class='count'>999人报名</span></p>
+						<hr style='height:1px;border:none;border-top:1px dashed #686666;margin-bottom:4px;'/>
+						<p class='teacher'>崔晓光</p>
+					</li>
+				</ul>
+			</div>
+			<div class="sectionbottomin" style='margin-top:40px;'> 
+				<div class="banner">
+					<ul class="uls">
+						<li style='font-size:16px;border-bottom:2px solid #063391'>HR晋升课程</li>
+						<li>专员必修课</li>
+						<li>主管必修课</li>
+						<li>经理必修课</li>
+						<li>高层必修课</li>
+					</ul>
+					<span class='more'>更多</span>
+				</div>
+				<ul class="ulss">
+					<li>
+						<div>
+							<img src="/Public/img/weike1/图层-3-拷贝-3.png" alt="" class='photo'>
+							<p class='name'>崔晓光</p>
+							<p class='job'>北京市成教学会人力资...</p>
+							<p class='content'>高级职称，国家认证高级企业培训师，人力资源管理师，信息系统项目管理师。人力资源专家，多年专注于人力资源管理各模块的实践、研...</p>
+							<p class='title'>如果对目标（计划）...</p>
+							<img src="/Public/img/weike1/gengduo.png" alt="" class='go'>
+							
+						</div>
+						<img src="/Public/img/weike1/图层-6.png" alt="" class='tu'>
+						<p class='titleli'>如何对目标（计划）进行量化</p>
+						<p><span class='pricenow'>￥2</span> <span class='priceago'>原价：￥288</span><span class='count'>999人报名</span></p>
+						<hr style='height:1px;border:none;border-top:1px dashed #686666;margin-bottom:4px;'/>
+						<p class='teacher'>崔晓光</p>
+					</li>
+					<li>
+						<div>
+							<img src="/Public/img/weike1/图层-3-拷贝-3.png" alt="" class='photo'>
+							<p class='name'>崔晓光</p>
+							<p class='job'>北京市成教学会人力资...</p>
+							<p class='content'>高级职称，国家认证高级企业培训师，人力资源管理师，信息系统项目管理师。人力资源专家，多年专注于人力资源管理各模块的实践、研...</p>
+							<p class='title'>如果对目标（计划）...</p>
+							<img src="/Public/img/weike1/gengduo.png" alt="" class='go'>
+							
+						</div>
+						<img src="/Public/img/weike1/图层-6.png" alt="" class='tu'>
+						<p class='titleli'>如何对目标（计划）进行量化</p>
+						<p><span class='pricenow'>￥2</span> <span class='priceago'>原价：￥288</span><span class='count'>999人报名</span></p>
+						<hr style='height:1px;border:none;border-top:1px dashed #686666;margin-bottom:4px;'/>
+						<p class='teacher'>崔晓光</p>
+					</li>
+					<li>
+						<div>
+							<img src="/Public/img/weike1/图层-3-拷贝-3.png" alt="" class='photo'>
+							<p class='name'>崔晓光</p>
+							<p class='job'>北京市成教学会人力资...</p>
+							<p class='content'>高级职称，国家认证高级企业培训师，人力资源管理师，信息系统项目管理师。人力资源专家，多年专注于人力资源管理各模块的实践、研...</p>
+							<p class='title'>如果对目标（计划）...</p>
+							<img src="/Public/img/weike1/gengduo.png" alt="" class='go'>
+							
+						</div>
+						<img src="/Public/img/weike1/图层-6.png" alt="" class='tu'>
+						<p class='titleli'>如何对目标（计划）进行量化</p>
+						<p><span class='pricenow'>￥2</span> <span class='priceago'>原价：￥288</span><span class='count'>999人报名</span></p>
+						<hr style='height:1px;border:none;border-top:1px dashed #686666;margin-bottom:4px;'/>
+						<p class='teacher'>崔晓光</p>
+					</li>
+					<li>
+						<div>
+							<img src="/Public/img/weike1/图层-3-拷贝-3.png" alt="" class='photo'>
+							<p class='name'>崔晓光</p>
+							<p class='job'>北京市成教学会人力资...</p>
+							<p class='content'>高级职称，国家认证高级企业培训师，人力资源管理师，信息系统项目管理师。人力资源专家，多年专注于人力资源管理各模块的实践、研...</p>
+							<p class='title'>如果对目标（计划）...</p>
+							<img src="/Public/img/weike1/gengduo.png" alt="" class='go'>
+							
+						</div>
+						<img src="/Public/img/weike1/图层-6.png" alt="" class='tu'>
+						<p class='titleli'>如何对目标（计划）进行量化</p>
+						<p><span class='pricenow'>￥2</span> <span class='priceago'>原价：￥288</span><span class='count'>999人报名</span></p>
+						<hr style='height:1px;border:none;border-top:1px dashed #686666;margin-bottom:4px;'/>
+						<p class='teacher'>崔晓光</p>
+					</li>
+				</ul>
+			</div>
+			<div class="sectionbottomin" style='margin-top:40px;'>
+				<div class="banner">
+					<ul class="uls">
+						<li style='font-size:16px;border-bottom:2px solid #063391'>HR晋升课程</li>
+						<li>专员必修课</li>
+						<li>主管必修课</li>
+						<li>经理必修课</li>
+						<li>高层必修课</li>
+					</ul>
+					<span class='more'>更多</span>
+				</div>
+				<ul class="ulss">
+					<li>
+						<div>
+							<img src="/Public/img/weike1/图层-3-拷贝-3.png" alt="" class='photo'>
+							<p class='name'>崔晓光</p>
+							<p class='job'>北京市成教学会人力资...</p>
+							<p class='content'>高级职称，国家认证高级企业培训师，人力资源管理师，信息系统项目管理师。人力资源专家，多年专注于人力资源管理各模块的实践、研...</p>
+							<p class='title'>如果对目标（计划）...</p>
+							<img src="/Public/img/weike1/gengduo.png" alt="" class='go'>
+							
+						</div>
+						<img src="/Public/img/weike1/图层-6.png" alt="" class='tu'>
+						<p class='titleli'>如何对目标（计划）进行量化</p>
+						<p><span class='pricenow'>￥2</span> <span class='priceago'>原价：￥288</span><span class='count'>999人报名</span></p>
+						<hr style='height:1px;border:none;border-top:1px dashed #686666;margin-bottom:4px;'/>
+						<p class='teacher'>崔晓光</p>
+					</li>
+					<li>
+						<div>
+							<img src="/Public/img/weike1/图层-3-拷贝-3.png" alt="" class='photo'>
+							<p class='name'>崔晓光</p>
+							<p class='job'>北京市成教学会人力资...</p>
+							<p class='content'>高级职称，国家认证高级企业培训师，人力资源管理师，信息系统项目管理师。人力资源专家，多年专注于人力资源管理各模块的实践、研...</p>
+							<p class='title'>如果对目标（计划）...</p>
+							<img src="/Public/img/weike1/gengduo.png" alt="" class='go'>
+							
+						</div>
+						<img src="/Public/img/weike1/图层-6.png" alt="" class='tu'>
+						<p class='titleli'>如何对目标（计划）进行量化</p>
+						<p><span class='pricenow'>￥2</span> <span class='priceago'>原价：￥288</span><span class='count'>999人报名</span></p>
+						<hr style='height:1px;border:none;border-top:1px dashed #686666;margin-bottom:4px;'/>
+						<p class='teacher'>崔晓光</p>
+					</li>
+					<li>
+						<div>
+							<img src="/Public/img/weike1/图层-3-拷贝-3.png" alt="" class='photo'>
+							<p class='name'>崔晓光</p>
+							<p class='job'>北京市成教学会人力资...</p>
+							<p class='content'>高级职称，国家认证高级企业培训师，人力资源管理师，信息系统项目管理师。人力资源专家，多年专注于人力资源管理各模块的实践、研...</p>
+							<p class='title'>如果对目标（计划）...</p>
+							<img src="/Public/img/weike1/gengduo.png" alt="" class='go'>
+							
+						</div>
+						<img src="/Public/img/weike1/图层-6.png" alt="" class='tu'>
+						<p class='titleli'>如何对目标（计划）进行量化</p>
+						<p><span class='pricenow'>￥2</span> <span class='priceago'>原价：￥288</span><span class='count'>999人报名</span></p>
+						<hr style='height:1px;border:none;border-top:1px dashed #686666;margin-bottom:4px;'/>
+						<p class='teacher'>崔晓光</p>
+					</li>
+					<li>
+						<div>
+							<img src="/Public/img/weike1/图层-3-拷贝-3.png" alt="" class='photo'>
+							<p class='name'>崔晓光</p>
+							<p class='job'>北京市成教学会人力资...</p>
+							<p class='content'>高级职称，国家认证高级企业培训师，人力资源管理师，信息系统项目管理师。人力资源专家，多年专注于人力资源管理各模块的实践、研...</p>
+							<p class='title'>如果对目标（计划）...</p>
+							<img src="/Public/img/weike1/gengduo.png" alt="" class='go'>
+							
+						</div>
+						<img src="/Public/img/weike1/图层-6.png" alt="" class='tu'>
+						<p class='titleli'>如何对目标（计划）进行量化</p>
+						<p><span class='pricenow'>￥2</span> <span class='priceago'>原价：￥288</span><span class='count'>999人报名</span></p>
+						<hr style='height:1px;border:none;border-top:1px dashed #686666;margin-bottom:4px;'/>
+						<p class='teacher'>崔晓光</p>
+					</li>
+				</ul>
+			</div>
+			<div class="get">
+				<div class="nav">
+					<p>获取课程</p>
+				</div>
+				<ul class="uls">
+					<li>人资一级</li>
+					<li>人资二级</li>
+					<li style="border-bottom-width: 1px">人资三级</li>
+				</ul>
+				<img src="/Public/img/weike1/图层-12.png" alt="" class='img'>
+				<div class="content">
+					<p class='title'>绩效与激励体系设计</p>
+					<p class='name'>人力资源师二级</p>
+					<p class='price'>价&nbsp;&nbsp;格：<span class='num'>380</span>元  <span class='rubi'>380儒币</span></p>
+					<p class='talk'>评&nbsp;&nbsp;价：<span class='fen'>5.0分</span><span>（6人评价）</span></p>
+					<p class='time'>有效期： <span class='day'>180</span>&nbsp;天</p>
+					<a href="" class='now'>立即听课</a>
+					<a href="" class='buy'>购买课程</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="footerin">
+			<img src="/Public/img/hf/logo_wite.png" alt="" class='logo'>
+			<div class="line"></div>
+			<div class="information">
+				<p>公司地址</p>
+				<p style='margin-bottom:21px'>ADDRESS</p>
+				<p>北京市朝阳区<br/>双井优士阁大厦B座A1001室</p>
+			</div>
+			<div class="telemail">
+				<p class='tel'>101-5861&nbsp;3231</p>
+				<p class='email'>zxkf@ruthout.com</p>
+			</div>
+			<ul class="uls">
+				<li>关于我们</li>
+				<li>人才招聘</li>
+				<li>专家申请</li>
+				<li>联系我们</li>
+				<li>意见反馈</li>
+				<li>友情链接</li>
+			</ul>
+			<div class="together">
+				<p style='font-size:14px;margin-bottom:15px;letter-spacing:1px;'>分享&nbsp;>></p>
+				<hr style='height:1px;border:none;border-top:1px solid #fff;margin-bottom:4px;'/>
+				<ul class="imgs">
+					<li><img src="/Public/img/hf/QQ.png" alt=""></li>
+					<li><img src="/Public/img/hf/微信.png" alt=""></li>
+					<li><img src="/Public/img/hf/新浪.png" alt=""></li>
+					<li><img src="/Public/img/hf/腾讯微博.png" alt=""></li>
+					<li><img src="/Public/img/hf/QQ空间.png" alt=""></li>
+				</ul>
+				<p style='letter-spacing:1px;'>&copy;Copyright 2014儒思（北京）教育科技有限公司版权所有<br/>京ICP备14038754号</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+<script src='/Public/js/jquery-1.8.3.min.js'></script>
+<script src='/Public/js/placeholder.js'></script>
+<script>
+	$('.ulss li').hover(function(){
+		$(this).addClass('zhe');
+	},function(){
+		$(this).removeClass('zhe');
+	});
+	$('.ulss li').hover(function(){
+		$(this).addClass('zhe');
+	},function(){
+		$(this).removeClass('zhe');
+	});
+</script>

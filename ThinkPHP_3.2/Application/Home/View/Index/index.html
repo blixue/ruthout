@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>index</title>
+	<title>首页</title>
 	<link rel="stylesheet" href="__PUBLIC__/css/public.css">
 	<link rel="stylesheet" href="__PUBLIC__/css/hf.css">
 	<link rel="stylesheet" href="__PUBLIC__/css/second.css">
@@ -16,13 +16,13 @@
 				<ul class="uls">
 					<li><img src="__PUBLIC__/img/导航新浪.png" alt="" class='sina'></li>
 					<li><img src="__PUBLIC__/img/导航微信.png" alt="" class='wechat'></li>
-					<li><img src="__PUBLIC__/img/导航QQ.png" alt="" class='qq'></li>
+					<li><a href="{:U('User/login_qq?type=qq')}"><img src="__PUBLIC__/img/导航QQ.png" alt="" class='qq'></a></li>
 					<empty name="data">
-						<li><a href="__URL__/register">注册</a></li>
-						<li><a href="__URL__/login">马上登录│</a></li>
+						<li style="color:#ffffff"><a href="{:U('User/register_y')}">注册</a></li>
+						<li><a href="{:U('User/login_y')}">马上登录│</a></li>
 						<else/>
-						<li><a href='#'>欢迎 {$data}</a></li>
 						<li><a href="{:U('User/logout')}">退出登录</a></li>
+						<li><a href='#'>欢迎 {$data}|</a></li>
 					</empty>
 				</ul>
 			</div>
@@ -30,14 +30,15 @@
 				<div class="navin">
 					<img src="__PUBLIC__/img/儒思logo.png" alt="" class='logo'>
 					<div class="searchbox">
-						<input class="searchtext" type="text" placeholder="请输入关键字"/>
-						<input class="search" type="button" value="搜索"/>
+						<input class="searchtext" type="text" id="search_val" placeholder="请输入关键字"/>
+						<input class="search" type="button" id="search" value="搜索"/>
+						<span id='sea'></span>
 					</div>
 					<ul class="uls">
 						<li style='color:#063391;border-bottom: 2px solid #063391;'>首页</li>
-						<li>HR微课</li>
-						<li>圈子问答</li>
-						<li>资料下载</li>
+						<li><a href="{:U('Course/index')}">HR微课</a></li>
+						<li><a href="{:U('Wenda/index')}">圈子问答</a></li>
+						<li><a href="{:U('Doc/index')}">资料下载</a></li>
 						<li>HR需要</li>
 						<li>HR资讯</li>
 					</ul>
@@ -159,8 +160,8 @@
 		<div class="content">
 			<ul class="rusi">
 				<li class="rus" style="width:240px;margin-right: 0px;">
-					<p style="width:160px; text-align:right;padding-right:30px;font-size: 26px; margin-top:60px; color: #Fff; background:url(__PUBLIC__/img/mor.png) no-repeat center right">儒思精选</p>
-					
+					<p style="width:160px; text-align:right;padding-right:30px;font-size: 26px; margin-top:60px; color: #Fff; background:url(/img/mor.png) no-repeat center right">儒思精选</p>
+
 				</li>
 				<li>
 					<div><img src="__PUBLIC__/img/sj.png" /><span></span></div>
@@ -327,61 +328,18 @@
 							<span style="float: right;">更多</span>
 						</p>
 						<ul class="zlload">
-							<li>
-								<img src="__PUBLIC__/img/word.png" />
-								<div>
-									<p>软件专业的职业生涯规划设计</p>
-									<span>免费下载</span>
-									<span>已下载122次</span>
-								</div>
-								<img src="__PUBLIC__/img/111.png" />
-							</li>
-							<li>
-								<img src="__PUBLIC__/img/word.png" />
-								<div>
-									<p>软件专业的职业生涯规划设计</p>
-									<span>免费下载</span>
-									<span>已下载122次</span>
-								</div>
-								<img src="__PUBLIC__/img/111.png" />
-							</li>
-							<li>
-								<img src="__PUBLIC__/img/word.png" />
-								<div>
-									<p>软件专业的职业生涯规划设计</p>
-									<span>免费下载</span>
-									<span>已下载122次</span>
-								</div>
-								<img src="__PUBLIC__/img/111.png" />
-							</li>
-							<li>
-								<img src="__PUBLIC__/img/word.png" />
-								<div>
-									<p>软件专业的职业生涯规划设计</p>
-									<span>免费下载</span>
-									<span>已下载122次</span>
-								</div>
-								<img src="__PUBLIC__/img/111.png" />
-							</li>
-							<li>
-								<img src="__PUBLIC__/img/word.png" />
-								<div>
-									<p>软件专业的职业生涯规划设计</p>
-									<span>免费下载</span>
-									<span>已下载122次</span>
-								</div>
-								<img src="__PUBLIC__/img/111.png" />
-							</li>
-							<li>
-								<img src="__PUBLIC__/img/word.png" />
-								<div>
-									<p>软件专业的职业生涯规划设计</p>
-									<span>免费下载</span>
-									<span>已下载122次</span>
-								</div>
-								<img src="__PUBLIC__/img/111.png" />
-							</li>
-							
+							<volist name="doc" id="vo">
+								<li>
+									<img src="__PUBLIC__/img/word.png" />
+									<div>
+										<p>{$vo.file_name}</p>
+										<span>免费下载</span>
+										<span>已下载{$vo.download_count}次</span>
+									</div>
+									<a href="">下载</a><img src="__PUBLIC__/img/111.png" />
+								</li>
+
+							</volist>
 						</ul>
 					</div>
 					
@@ -537,15 +495,12 @@
 				<li>友情链接</li>
 			</ul>
 			<div class="together">
-				<p style='font-size:14px;margin-bottom:15px;letter-spacing:1px;'>分享&nbsp;>></p>
+				<p style='font-size:14px;margin-bottom:15px;letter-spacing:1px;'>分享&nbsp;>>	</p>
 				<hr style='height:1px;border:none;border-top:1px solid #fff;margin-bottom:4px;'/>
 				<ul class="imgs">
-					<li><img src="__PUBLIC__/img/qq (2).png" alt=""></li>
-					<li><img src="__PUBLIC__/img/微信.png" alt=""></li>
-					<li><img src="__PUBLIC__/img/新浪.png" alt=""></li>
-					<li><img src="__PUBLIC__/img/腾讯微博.png" alt=""></li>
-					<li><img src="__PUBLIC__/img/QQ空间.png" alt=""></li>
+					<div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
 				</ul>
+
 				<p style='letter-spacing:1px;'>&copy;Copyright 2014儒思（北京）教育科技有限公司版权所有<br/>京ICP备14038754号</p>
 			</div>
 		</div>
@@ -555,3 +510,20 @@
 <script src='__PUBLIC__/js/jquery-1.8.3.min.js'></script>
 <script src='__PUBLIC__/js/placeholder.js'></script>
 <script src='__PUBLIC__/js/second.js'></script>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdPic":"","bdStyle":"0","bdSize":"16"},"share":{},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+
+<!--搜索-->
+<script>
+	$(function(){
+		$('#search').click(function(){
+			var search_val = $('#search_val').val()
+			var url ="__URL__/search";
+			$.post(url,{search_val:search_val},function(msg){
+					if (msg==0)
+					{
+						document.getElementById('sea').innerHTML="<font color=red>无搜索结果</font>";
+					}
+			})
+		})
+	})
+</script>

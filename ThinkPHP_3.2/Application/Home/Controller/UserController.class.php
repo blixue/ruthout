@@ -1,13 +1,28 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
+//use Org\ThinkSDK\sdk\QqSDK;
+use Org\ThinkSDK\ThinkOauth;
 class UserController extends Controller
 {
+	//渲染注册页
+	public function register_y(){
+		$this->display('User/regist');
+	}
+
+	//渲染登录页
+	public function login_y()
+	{
+		$this->display('User/login');
+	}
+
+
 	/**
 	 * 用户登录
 	 */
 	public function login()
 	{
+		//echo "123";die;
 		if(IS_GET){
 			$this->display();
 		}
@@ -15,23 +30,24 @@ class UserController extends Controller
 			$account = I('post.account');
 			$password = I('post.password');
 			$auto = I('post.auto');
+		}
 			//$user=M('User')->where($condition)->find();
 			$object = D('User');
 			$user_info = $object->getLoginUserInfo($account, $password);
 			if (empty($user_info)) {
-				echo "<script>alert('用户名错误')</script>";
-
+				echo "用户名错误";
+				echo "</br>";
 			}
 			$verify_password = encode_password($password, $user_info['salt']);
 			if ($verify_password != $user_info['password']) {
-				//密码错误
-				echo "<script>alert('密码错误')</script>";
+				echo "密码错误";
 			}
 
 			//成功页
 			$id=$user_info[id];
 			if($user_info[email]){
 				$account=$user_info[email];
+				//$account=$user_info[email];
 			}
 			session('id',$user_info[id]);
 			session('account',$account);
@@ -41,7 +57,8 @@ class UserController extends Controller
 			}
 			redirect(__APP__);
 
-		}
+
+
 	}
 
 	//退出登录
@@ -163,5 +180,50 @@ class UserController extends Controller
 		{
 
 		}
+
+
+		/**
+		 * qq第三方测试
+		 */
+		public function login_qq($type = null){
+			empty($type) && $this->error('参数错误');
+
+			$sns = \Org\ThinkSDK\ThinkOauth::getInstance($type);
+
+			//<span style="white-space:pre"></span>//跳转到授权页面
+			redirect($sns->getRequestCodeURL());
+		}
+
+	//授权回调地址
+	public function callback($type = null, $code = null){
+		(empty($type) || empty($code)) && $this->error('参数错误');
+
+		//加载ThinkOauth类并实例化一个对象
+		//import("ORG.ThinkSDK.ThinkOauth");
+		 //Org\ThinkSDK\ThinkOauth;
+		$sns  = ThinkOauth::getInstance($type);
+		//腾讯微博需传递的额外参数
+		$extend = null;
+		if($type == 'tencent'){
+			$extend = array('openid' => $this->_get('openid'), 'openkey' => $this->_get('openkey'));
+		}
+
+		//请妥善保管这里获取到的Token信息，方便以后API调用
+		//调用方法，实例化SDK对象的时候直接作为构造函数的第二个参数传入
+		//如： $qq = ThinkOauth::getInstance('qq', $token);
+		$token = $sns->getAccessToken($code , $extend);
+		print_r($token);die;
+		//获取当前登录用户信息
+		if(is_array($token)){
+			$user_info = A('Type', 'Event')->$type($token);
+			print_r($user_info);die;
+			echo("<h1>恭喜！使用 {$type} 用户登录成功</h1><br>");
+			echo("授权信息为：<br>");
+			dump($token);
+			echo("当前登录用户信息为：<br>");
+			dump($user_info);
+		}
 	}
+
+}
 
