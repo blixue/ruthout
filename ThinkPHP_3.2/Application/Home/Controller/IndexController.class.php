@@ -3,55 +3,15 @@
 namespace Home\Controller;
 use Think\Controller;
 class IndexController extends Controller {
-	/**
-	 * 首页
-	 */
+    public function index(){
+	$this->show('<style type="text/css">*{ padding: 0; margin: 0; } div{ padding: 4px 48px;} body{ background: #fff; font-family: "微软雅黑"; color: #333;} h1{ font-size: 100px; font-weight: normal; margin-bottom: 12px; } p{ line-height: 1.8em; font-size: 36px }</style><div style="padding: 24px 48px;"> <h1>:)</h1><p>欢迎使用 <b>ThinkPHP</b>！</p></div><script type="text/javascript" src="http://tajs.qq.com/stats?sId=9347272" charset="UTF-8"></script>','utf-8');
+    }
 
-	   public function _before_index(){
+	function product() {
 
-		   //$this->display();
+	}
 
-	   }
-	//热门资料
-		public function index(){
-			//自动登陆
-			$data=session('account');
-			if($data){
-				$this->data = $data;
-			}else if(cookie('email')){
-				$this->data = cookie('email');
-			}
-			//首页热门资料
-			$Doc= D('Doc');
-			$hotDoc = $Doc->hotDoc();
-			$this->assign('doc',$hotDoc);
-			$this->display('Index/index');
+	function search() {
 
-
-		}
-
-	   public function _after_index(){
-		  // echo 'after<br/>';
-	   }
-
-
-
-
-
-
-	
-	//渲染搜索
-	function search(){
-		$search_val = I('post.search_val');
-		$Search = D('Search');
-		$data = $Search->search_index($search_val);
-		if(is_array($data)){
-			$this->assign('data',$data);
-			//传搜索页面
-			$this->display('search');
-		}else{
-			//显示无搜索结果
-			$this->ajaxReturn(0);
-		}
 	}
 }
