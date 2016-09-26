@@ -1,0 +1,75 @@
+@import url(public.css);
+.section {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.section .img {
+  width: 1920px;
+  height: auto;
+}
+.section .upload {
+  z-index: 666;
+  position: absolute;
+  background: #fff;
+  color: #4dc9f6;
+  text-align: center;
+  width: 173px;
+  height: 60px;
+  top: 408px;
+  left: 437px;
+  line-height: 60px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.section .ul {
+  position: absolute;
+  width: 700px;
+  height: 270px;
+  top: 783px;
+  left: 584px;
+}
+.section .ul li {
+  float: left;
+  margin-right: 20px;
+  width: 153px;
+  height: 270px;
+  text-align: center;
+  font-size: 16px;
+}
+.section .ul li p {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.section .uls {
+  position: absolute;
+  width: 369px;
+  height: 120px;
+  left: 795px;
+  bottom: 118px;
+}
+.section .uls li {
+  float: left;
+  margin-right: 20px;
+  width: 103px;
+  height: 120px;
+  text-align: center;
+  font-size: 16px;
+}
+#need{position: relative;}
+#ulss{
+	position: absolute;
+	left:0;top:45px;
+	display: none;
+}
+#ulss .bor{
+	width:100%;
+    height: 45px;
+    font-size: 18px;
+    color: #3E3A39;
+    line-height:45px;
+    text-align: center;
+	border: 1px solid #ccc;
+	
+}
+			

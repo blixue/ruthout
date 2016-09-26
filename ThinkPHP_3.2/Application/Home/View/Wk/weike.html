@@ -15,13 +15,18 @@
 					<li><img src="__PUBLIC__/img/hf/导航新浪.png" alt="" class='sina'></li>
 					<li><img src="__PUBLIC__/img/hf/导航微信.png" alt="" class='wechat'></li>
 					<li><img src="__PUBLIC__/img/hf/导航QQ.png" alt="" class='qq'></li>
-					<li>注册</li>
-					<li>马上登录│</li>
+					<empty name="data">
+						<li style="color:#ffffff"><a href="{:U('User/register_y')}">注册</a></li>
+						<li><a href="{:U('User/login_y')}">马上登录│</a></li>
+						<else/>
+						<li><a href="{:U('User/logout')}">退出登录</a></li>
+						<li><a href='#'>欢迎 {$data}|</a></li>
+					</empty>
 				</ul>
 			</div>
 			<div class="nav">
 				<div class="navin">
-					<img src="__PUBLIC__/img/hf/logo.png" alt="" class='logo'>
+				<a href="__APP__"><img src="__PUBLIC__/img/hf/logo.png" alt="" class='logo'></a>
 					<div class="searchbox">
 						<input class="searchtext" type="text" placeholder="请输入关键字"/>
 						<input class="search" type="button" value="搜索"/>
@@ -31,8 +36,13 @@
 						<li style='color:#063391;border-bottom: 2px solid #063391;'>HR微课</li>
 						<li><a href="{:U('Wenda/index')}">圈子问答</li>
 						<li><a href="{:U('Doc/index')}">资料下载</a></li>
-						<li>HR需要</li>
-						<li>HR资讯</li>
+							<li id="need">HR需要
+							<ul id='ulss'>
+								<li class="bor">私人教练</li>
+								<li class="bor">私人教练</li>
+							</ul>
+						</li>
+						<li><a href="{:U('News/index')}">HR资讯</a></li>
 					</ul>
 				</div>
 			</div>
@@ -478,7 +488,7 @@
 	</div>
 	<div class="footer">
 		<div class="footerin">
-			<img src="__PUBLIC__/img/hf/logo_wite.png" alt="" class='logo'>
+			<img src="__PUBLIC__/img/儒思logo--反白.png" alt="" class='logo'>
 			<div class="line"></div>
 			<div class="information">
 				<p>公司地址</p>
@@ -490,23 +500,20 @@
 				<p class='email'>zxkf@ruthout.com</p>
 			</div>
 			<ul class="uls">
-				<li>关于我们</li>
-				<li>人才招聘</li>
-				<li>专家申请</li>
-				<li>联系我们</li>
-				<li>意见反馈</li>
-				<li>友情链接</li>
+				<li><a href="__URL__/about">关于我们</a></li>
+				<li><a href="__URL__/about">人才招聘</a></li>
+				<li><a href="__URL__/about">专家申请</a></li>
+				<li><a href="__URL__/about">联系我们</a></li>
+				<li><a href="__URL__/about">意见反馈</a></li>
+				<li><a href="__URL__/about">友情链接</a></li>
 			</ul>
 			<div class="together">
-				<p style='font-size:14px;margin-bottom:15px;letter-spacing:1px;'>分享&nbsp;>></p>
+				<p style='font-size:14px;margin-bottom:15px;letter-spacing:1px;'>分享&nbsp;>>	</p>
 				<hr style='height:1px;border:none;border-top:1px solid #fff;margin-bottom:4px;'/>
 				<ul class="imgs">
-					<li><img src="__PUBLIC__/img/hf/QQ.png" alt=""></li>
-					<li><img src="__PUBLIC__/img/hf/微信.png" alt=""></li>
-					<li><img src="__PUBLIC__/img/hf/新浪.png" alt=""></li>
-					<li><img src="__PUBLIC__/img/hf/腾讯微博.png" alt=""></li>
-					<li><img src="__PUBLIC__/img/hf/QQ空间.png" alt=""></li>
+					<div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
 				</ul>
+
 				<p style='letter-spacing:1px;'>&copy;Copyright 2014儒思（北京）教育科技有限公司版权所有<br/>京ICP备14038754号</p>
 			</div>
 		</div>
@@ -515,6 +522,12 @@
 </html>
 <script src='__PUBLIC__/js/jquery-1.8.3.min.js'></script>
 <script src='__PUBLIC__/js/placeholder.js'></script>
+<script>
+	$('#need').click(function(){
+			$("#ulss").toggle();	
+	})
+</script>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdPic":"","bdStyle":"0","bdSize":"16"},"share":{},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
 <script>
 	$('.ulss li').hover(function(){
 		$(this).addClass('zhe');

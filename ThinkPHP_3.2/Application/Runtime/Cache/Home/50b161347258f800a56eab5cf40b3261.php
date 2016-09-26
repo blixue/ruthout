@@ -33,7 +33,7 @@
 						<li><a href="<?php echo U('Wenda/index');?>">圈子问答</a></li>
 						<li style='color:#063391;border-bottom: 2px solid #063391;'>资料下载</li>
 						<li>HR需要</li>
-						<li>HR资讯</li>
+						<li><a href="<?php echo U('News/index');?>">HR资讯</a></li>
 					</ul>
 				</div>
 			</div>
@@ -44,10 +44,32 @@
 		<div class="nav">
 			<div class="title">上传资料</div>
 		</div>
+
+		<label class="control-label" > </label>
+		<input type="file" style="display:none" name="userfile">
+		<input type="hidden" id="newbikephotoName" name="bike_photo" value="" />
+		<input type="hidden" id="oldbikephotoName" value="" />
+		<div class="controls" style="text-align:left;">
+			<img  id="newbikephoto" src="/ajaxup/Public/images/nophoto.jpg" style="max-height:200px;" />
+			<span class="help-inline"></span>
+			<br>
+			<div id="uploadphotoconfirm"></div>
+			<br>
+			<input type="button" class="btn btn-primary" id="upload_button"  value="上传图片" /><br/>
+			<span class="help-inline">*请上传格式为.png .jpg .jpeg 的图片</span>
+		</div>
+
+
 		<div class="get">
 			<a href="/index.php/Home/Doc/ups" class='up'>上传我的资料</a>
 			<p class='word'>每成功上传一份资料，可获得<span>5</span>积分奖励</p>
 		</div>
+
+
+
+
+
+
 		<p class="yaoqiu" style='color:#000;'>上传资料说明</p>
 		<p class="yaoqiu">1、上传的资料需要通过审核后才发布</p>
 		<p class="yaoqiu">2、支持5M以内的资料文件上传</p>
@@ -57,7 +79,7 @@
 	</div>
 	<div class="footer">
 		<div class="footerin">
-			<img src="/Public/img/hf/logo_wite.png" alt="" class='logo'>
+			<img src="/Public/img/儒思logo--反白.png" alt="" class='logo'>
 			<div class="line"></div>
 			<div class="information">
 				<p>公司地址</p>
@@ -69,23 +91,20 @@
 				<p class='email'>zxkf@ruthout.com</p>
 			</div>
 			<ul class="uls">
-				<li>关于我们</li>
-				<li>人才招聘</li>
-				<li>专家申请</li>
-				<li>联系我们</li>
-				<li>意见反馈</li>
-				<li>友情链接</li>
+				<li><a href="/index.php/Home/Doc/about">关于我们</a></li>
+				<li><a href="/index.php/Home/Doc/about">人才招聘</a></li>
+				<li><a href="/index.php/Home/Doc/about">专家申请</a></li>
+				<li><a href="/index.php/Home/Doc/about">联系我们</a></li>
+				<li><a href="/index.php/Home/Doc/about">意见反馈</a></li>
+				<li><a href="/index.php/Home/Doc/about">友情链接</a></li>
 			</ul>
 			<div class="together">
-				<p style='font-size:14px;margin-bottom:15px;letter-spacing:1px;'>分享&nbsp;>></p>
+				<p style='font-size:14px;margin-bottom:15px;letter-spacing:1px;'>分享&nbsp;>>	</p>
 				<hr style='height:1px;border:none;border-top:1px solid #fff;margin-bottom:4px;'/>
 				<ul class="imgs">
-					<li><img src="/Public/img/hf/QQ.png" alt=""></li>
-					<li><img src="/Public/img/hf/微信.png" alt=""></li>
-					<li><img src="/Public/img/hf/新浪.png" alt=""></li>
-					<li><img src="/Public/img/hf/腾讯微博.png" alt=""></li>
-					<li><img src="/Public/img/hf/QQ空间.png" alt=""></li>
+					<div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
 				</ul>
+
 				<p style='letter-spacing:1px;'>&copy;Copyright 2014儒思（北京）教育科技有限公司版权所有<br/>京ICP备14038754号</p>
 			</div>
 		</div>
@@ -94,3 +113,67 @@
 </html>
 <script src='/Public/js/jquery-1.8.3.min.js'></script>
 <script src='/Public/js/placeholder.js'></script>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdPic":"","bdStyle":"0","bdSize":"16"},"share":{},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+<script src="/Public/js/ajaxupload.js"></script>
+<script>
+	$(function(){
+		var button = $('#upload_button'),interval;
+		var confirmdiv = $('#uploadphotoconfirm');
+		var fileType = "pic",fileNum = "one";
+		new AjaxUpload(button,{
+			action: "<?php echo U('Index/uppic');?>",
+			name: 'userfile',
+			onSubmit : function(file, ext){
+				if(fileType == "pic")
+				{
+					if (ext && /^(jpg|png|jpeg|gif|JPG)$/.test(ext)){
+						this.setData({
+							'info': '文件类型为图片'
+						});
+					} else {
+						confirmdiv.text('文件格式错误，请上传格式为.png .jpg .jpeg 的图片');
+						return false;
+					}
+				}
+
+				confirmdiv.text('文件上传中');
+
+				if(fileNum == 'one')
+					this.disable();
+
+				interval = window.setInterval(function(){
+					var text = confirmdiv.text();
+					if (text.length < 14){
+						confirmdiv.text(text + '.');
+					} else {
+						confirmdiv.text('文件上传中');
+					}
+				}, 200);
+			},
+			onComplete: function(file, response){
+				if(response != "success"){
+					if(response =='2'){
+						confirmdiv.text("文件格式错误，请上传格式为.png .jpg .jpeg 的图片");
+					}else{
+						if(response.length>20){
+							confirmdiv.text("文件上传失败请重新上传"+response);
+						}else{
+							confirmdiv.text("上传完成");
+							$("#newbikephotoName").val("/ajaxup/upload/images/"+response);
+							$("#newbikephoto").attr("src","/ajaxup/upload/images/"+response);
+						}
+					}
+
+				}
+
+				window.clearInterval(interval);
+
+				this.enable();
+
+				if(response == "success")
+					alert('上传成功');
+			}
+		});
+	});
+
+</script>
