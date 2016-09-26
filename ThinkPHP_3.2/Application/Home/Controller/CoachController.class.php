@@ -11,7 +11,7 @@ class CoachController extends Controller{
 			
 
 		//显示页面
-		$data=cookie('account');
+		$data=decrypt(cookie('account'));
 		if($data){
 			$this->data = $data;
 		}else if(cookie('email')){

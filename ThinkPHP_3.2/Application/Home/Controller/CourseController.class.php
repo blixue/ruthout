@@ -5,7 +5,7 @@ class CourseController extends Controller
 {
 	//渲染微课页
 	public function index() {
-		$data=cookie('account');
+		$data=decrypt(cookie('account'));
 		if($data){
 			$this->data = $data;
 		}else if(cookie('email')){

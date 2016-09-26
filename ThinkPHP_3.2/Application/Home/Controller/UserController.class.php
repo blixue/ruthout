@@ -44,13 +44,13 @@ class UserController extends Controller
 			}
 
 				//成功页
-				$uid=$user_info[id];
+				$uid=encrypt($user_info[id]);
 				if($user_info[email]){
-					$account=$user_info[email];
+					$account=encrypt($user_info[email]);
 					//$account=$user_info[email];
 				}
-				session('uid',$user_info[id]);
-				session('account',$account);
+				cookie('uid',$uid);
+				cookie('account',$account);
 				if($auto=='on'){
 					cookie('uid',$uid,30*24*3600);
 					cookie('account',$account,30*24*3600);

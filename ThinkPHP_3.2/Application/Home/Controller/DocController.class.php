@@ -14,15 +14,16 @@ class DocController extends Controller {
 		$data = $credit->limit($limit_value)->select(); // 根据积分查询数据
 		//print_r($data);die;
 		$page = $p->show(); // 产生分页信息，AJAX的连接在此处生成
-		$data=cookie('account');
+
+		$this->assign('list',$data);
+		$this->assign('page',$page);
+		$data=decrypt(cookie('account'));
 		if($data){
 			$this->data = $data;
 		}else if(cookie('email')){
 			$this->data = cookie('email');
 		}
 		$this->assign('data',$data);
-		$this->assign('list',$data);
-		$this->assign('page',$page);
 		$this->display('Doc/doc');
 	}
 

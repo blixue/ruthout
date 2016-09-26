@@ -5,7 +5,7 @@ use Think\Controller;
 class NewsController extends Controller {
 	//资讯 页
 	public function index (){
-		$data=cookie('account');
+		$data=decrypt(cookie('account'));
 		if($data){
 			$this->data = $data;
 		}else if(cookie('email')){

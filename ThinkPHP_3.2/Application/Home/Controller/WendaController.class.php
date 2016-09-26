@@ -5,7 +5,7 @@ class WendaController extends Controller{
 	
 	//渲染问答页
 	public function index(){
-		$data=cookie('account');
+		$data=decrypt(cookie('account'));
 		if($data){
 			$this->data = $data;
 		}else if(cookie('email')){
@@ -17,7 +17,7 @@ class WendaController extends Controller{
 
 	//提问页
 	public function tiwen(){
-		$data=cookie('account');
+		$data=decrypt(cookie('account'));
 		if($data){
 			$this->data = $data;
 		}else if(cookie('email')){
@@ -29,7 +29,7 @@ class WendaController extends Controller{
 
 	//问专家页
 	public  function zhuanjia(){
-		$data=cookie('account');
+		$data=decrypt(cookie('account'));
 		if($data){
 			$this->data = $data;
 		}else if(cookie('email')){
@@ -46,7 +46,7 @@ class WendaController extends Controller{
 		 * 查询数据操作
 		 */
 		//显示详情页
-		$data=cookie('account');
+		$data=decrypt(cookie('account'));
 		if($data){
 			$this->data = $data;
 		}else if(cookie('email')){
