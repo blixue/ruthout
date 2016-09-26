@@ -16,8 +16,11 @@
 					<li><img src="/Public/img/导航新浪.png" alt="" class='sina'></li>
 					<li><img src="/Public/img/导航微信.png" alt="" class='wechat'></li>
 					<li><img src="/Public/img/导航QQ.png" alt="" class='qq'></li>
-					<li>注册</li>
-					<li>马上登录│</li>
+					<?php if(empty($data)): ?><li style="color:#ffffff"><a href="<?php echo U('User/register_y');?>">注册</a></li>
+						<li><a href="<?php echo U('User/login_y');?>">马上登录│</a></li>
+						<?php else: ?>
+						<li><a href="<?php echo U('User/logout');?>">退出登录</a></li>
+						<li><a href='#'>欢迎 <?php echo ($data); ?>|</a></li><?php endif; ?>
 				</ul>
 			</div>
 			<div class="nav">

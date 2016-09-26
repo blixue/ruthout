@@ -15,7 +15,7 @@ class IndexController extends Controller {
 	//热门资料
 		public function index(){
 			//自动登陆
-			$data=session('account');
+			$data=cookie('account');
 			if($data){
 				$this->data = $data;
 			}else if(cookie('email')){
@@ -25,6 +25,7 @@ class IndexController extends Controller {
 			$Doc= D('Doc');
 			$hotDoc = $Doc->hotDoc();
 			$this->assign('doc',$hotDoc);
+			$this->assign('data',$data);
 			$this->display('Index/index');
 
 

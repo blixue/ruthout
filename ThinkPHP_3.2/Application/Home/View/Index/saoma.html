@@ -15,8 +15,13 @@
 					<li><img src="__PUBLIC__/img/hf/导航新浪.png" alt="" class='sina'></li>
 					<li><img src="__PUBLIC__/img/hf/导航微信.png" alt="" class='wechat'></li>
 					<li><img src="__PUBLIC__/img/hf/导航QQ.png" alt="" class='qq'></li>
-					<li>注册</li>
-					<li>马上登录│</li>
+					<empty name="data">
+						<li style="color:#ffffff"><a href="{:U('User/register_y')}">注册</a></li>
+						<li><a href="{:U('User/login_y')}">马上登录│</a></li>
+						<else/>
+						<li><a href="{:U('User/logout')}">退出登录</a></li>
+						<li><a href='#'>欢迎 {$data}|</a></li>
+					</empty>
 				</ul>
 			</div>
 			<div class="nav">
